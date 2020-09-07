@@ -1,21 +1,43 @@
 ---
-title: "Manuscript Title"
+title: "ANN: A platform to annotate text with Wikidata IDs"
 keywords:
-  - markdown
-  - publishing
-  - manubot
+  - wikidata
+  - Europe PMC
+  - annotation
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
+  - github: lubianat
+    name: Tiago Lubiana
+    initials: TL
+    orcid: 0000-0003-2473-2313
     twitter: johndoe
-    email: john.doe@something.com
+    email: tiago.lubiana.alves@usp.br
+    affiliations:
+      - Computational Systems Biology Laboratory, University of São Paulo
+    funders:
+  - github: webersab
+    name: Sabine Weber
+    initials: SW
+    orcid: 0000-0002-5577-3356
+    email: jane.roe@whatever.edu
+    affiliations:
+      - University Of Edinburgh
+  - github: paranhosba
+    name: Bruno Andrade Paranhos 
+    initials: BAP
+    orcid: 0000-0002-6730-6608
+    email: jane.roe@whatever.edu
     affiliations:
       - Department of Something, University of Whatever
-    funders:
-      - Grant XXXXXXXX
+      - Department of Whatever, University of Something
+  - github: janeroe
+    name: Jane Roe
+    initials: JR
+    orcid: XXXX-XXXX-XXXX-XXXX
+    email: jane.roe@whatever.edu
+    affiliations:
+      - Department of Something, University of Whatever
+      - Department of Whatever, University of Something
   - github: janeroe
     name: Jane Roe
     initials: JR
