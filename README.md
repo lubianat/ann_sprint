@@ -1,5 +1,4 @@
-# Automated scholarly manuscripts on GitHub
-
+# eLife Sprint 2020: ANN: A platform to annotate text with Wikidata IDs
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://lubianat.github.io/ann_sprint/)
@@ -12,8 +11,9 @@
 
 <!-- usage note: edit this section. -->
 
-This repository is a template manuscript (a.k.a. rootstock).
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
+This report is a documentation of our collective efforts to hotstart the ANN project at the eLife Sprint 2020. We hope that the efforts we collectively made during the sprint will allow the project to start its journey until becoming a reality. 
+
+The project is going to be continuously improved at github.com/lubianat/ann, where future tasks have been organized as issues. Everyone is welcome to join us and help empowering open biomedical knowledge with collaborative semantic enrichment.
 
 ## Manubot
 
@@ -95,27 +95,8 @@ We encourage users to openly license their manuscripts, which is the default as 
 -->
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License%20All-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
-[![License: CC0 1.0](https://img.shields.io/badge/License%20Parts-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 Except when noted otherwise, the entirety of this repository is licensed under a CC BY 4.0 License ([`LICENSE.md`](LICENSE.md)), which allows reuse with attribution.
 Please attribute by linking to https://github.com/lubianat/ann_sprint.
-
-Since CC BY is not ideal for code and data, certain repository components are also released under the CC0 1.0 public domain dedication ([`LICENSE-CC0.md`](LICENSE-CC0.md)).
-All files matched by the following glob patterns are dual licensed under CC BY 4.0 and CC0 1.0:
-
-+ `*.sh`
-+ `*.py`
-+ `*.yml` / `*.yaml`
-+ `*.json`
-+ `*.bib`
-+ `*.tsv`
-+ `.gitignore`
-
-All other files are only available under CC BY 4.0, including:
-
-+ `*.md`
-+ `*.html`
-+ `*.pdf`
-+ `*.docx`
 
 Please open [an issue](https://github.com/lubianat/ann_sprint/issues) for any question related to licensing.
