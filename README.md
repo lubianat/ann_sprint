@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/lubianat/ann_sprint/tree/gh-pages) branch hosts the contents of this directory at <https://lubianat.github.io/ann_sprint/>.
-The permalink for this webpage version is <https://lubianat.github.io/ann_sprint/v/d276f8efbc516abb983b3b424d0750118f3815fc/>.
+The permalink for this webpage version is <https://lubianat.github.io/ann_sprint/v/db79ceb452117a625b304bbc248bde48c7e1aab9/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://lubianat.github.io/ann_sprint/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`d276f8efbc516abb983b3b424d0750118f3815fc`](https://github.com/lubianat/ann_sprint/commit/d276f8efbc516abb983b3b424d0750118f3815fc).
+[`db79ceb452117a625b304bbc248bde48c7e1aab9`](https://github.com/lubianat/ann_sprint/commit/db79ceb452117a625b304bbc248bde48c7e1aab9).

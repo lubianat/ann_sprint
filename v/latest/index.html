@@ -46,9 +46,9 @@
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/ann_sprint/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/ann_sprint/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/ann_sprint/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/ann_sprint/v/d276f8efbc516abb983b3b424d0750118f3815fc/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/ann_sprint/v/d276f8efbc516abb983b3b424d0750118f3815fc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/ann_sprint/v/d276f8efbc516abb983b3b424d0750118f3815fc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/ann_sprint/v/db79ceb452117a625b304bbc248bde48c7e1aab9/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/ann_sprint/v/db79ceb452117a625b304bbc248bde48c7e1aab9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/ann_sprint/v/db79ceb452117a625b304bbc248bde48c7e1aab9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -62,9 +62,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://lubianat.github.io/ann_sprint/v/d276f8efbc516abb983b3b424d0750118f3815fc/">permalink</a>)
+(<a href="https://lubianat.github.io/ann_sprint/v/db79ceb452117a625b304bbc248bde48c7e1aab9/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/lubianat/ann_sprint/tree/d276f8efbc516abb983b3b424d0750118f3815fc">lubianat/ann_sprint@d276f8e</a>
+from <a href="https://github.com/lubianat/ann_sprint/tree/db79ceb452117a625b304bbc248bde48c7e1aab9">lubianat/ann_sprint@db79ceb</a>
 on September 10, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -166,10 +166,12 @@ Semantic enrichment: annotations enrich a scientific article with an additional 
 </ul></li>
 </ul>
 <h3 id="open-tapioka">Open Tapioka</h3>
-<p>github repo: https://github.com/wetneb/opentapioca
-online demo: https://opentapioca.org/#
-paper: https://arxiv.org/pdf/1904.09131.pdf
-documentation: https://opentapioca.readthedocs.io/en/latest/</p>
+<ul>
+<li><a href="https://github.com/wetneb/opentapioca">github repo</a></li>
+<li><a href="https://opentapioca.org/#">online demo</a></li>
+<li><a href="https://arxiv.org/pdf/1904.09131.pdf">paper</a></li>
+<li><a href="https://opentapioca.readthedocs.io/en/latest/">documentation</a></li>
+</ul>
 <h4 id="system-description">System description</h4>
 <p>Input is a sentence. Output is the sentence, with all persons, locations and organizations linked to their respective Wikidata identifier. The system is trained solely on Wikidata. The authors use occurrence statistics of concepts in Wikidata and in text to compute the likelihood of a certain word in the text linking to a certain Wikidata item (e.g. “Barack Obama” linking to “Q76”). To take context into account independently computed local features are propagated along a Markov chain. The authors claim that this system is lightweight and easy to retrain, and therefore easily adapts to the frequent changes of Wikidata. They say that restricting their system to only people, organizations and locations enabled them to do well without using any other data but Wikidata, while other approaches do rely on additional text from Wikipedia.</p>
 <h4 id="how-feasible-is-this-system-for-our-project">How feasible is this system for our project</h4>
@@ -180,9 +182,11 @@ documentation: https://opentapioca.readthedocs.io/en/latest/</p>
 <li>How easily can this be changed in the code? If we had a dump of Wikidata containing only biological entities we could use it to train on as described, no changes to the code itself needed!</li>
 </ul>
 <h3 id="sci-spacy">Sci Spacy</h3>
-<p>github link: https://allenai.github.io/scispacy/
-online demo: https://scispacy.apps.allenai.org/
-paper: https://arxiv.org/pdf/1902.07669.pdf</p>
+<ul>
+<li><a href="https://allenai.github.io/scispacy/">github link</a></li>
+<li><a href="https://scispacy.apps.allenai.org/">online demo</a></li>
+<li><a href="https://arxiv.org/pdf/1902.07669.pdf">paper</a></li>
+</ul>
 <h3 id="system-description-1">System description</h3>
 <p>The input is a sentence. The output is a sentence with the biomedical entities in that sentence annotated with canonical names, concept IDs and TUI(s).</p>
 <h4 id="how-feasible-is-this-system-for-our-project-1">How feasible is this system for our project:</h4>
@@ -192,18 +196,24 @@ paper: https://arxiv.org/pdf/1902.07669.pdf</p>
 <li>Are the IDs provided there in any way meaningful for linking them to Wikidata? Yes! (See section below)</li>
 </ul>
 <h3 id="doccano">Doccano</h3>
-<p>code base: https://github.com/doccano/doccano
-demo: http://doccano.herokuapp.com/
-Comments:
+<ul>
+<li><a href="https://github.com/doccano/doccano">code base</a></li>
+<li><a href="http://doccano.herokuapp.com/">demo</a></li>
+</ul>
+<p>Comments:
 - Entity identification; Sentiment analysis.</p>
 <h3 id="linked-wikitext-2-project">Linked WikiText-2 Project</h3>
-<p>codebase: https://github.com/rloganiv/kglm-data
-demo: https://rloganiv.github.io/linked-wikitext-2/#/explore
-back bone: https://stanfordnlp.github.io/CoreNLP/corenlp-server.html</p>
+<ul>
+<li><a href="https://github.com/rloganiv/kglm-data">codebase</a></li>
+<li><a href="https://rloganiv.github.io/linked-wikitext-2/#/explore">demo</a></li>
+<li><a href="https://stanfordnlp.github.io/CoreNLP/corenlp-server.html">backbone</a></li>
+</ul>
 <p>Entity identification; Annotation with Wikidata entries; the project utilizes Stanford CoreNLP</p>
 <h3 id="bern">BERN</h3>
-<p>code base: https://github.com/dmis-lab/bern
-demo: https://bern.korea.ac.kr/</p>
+<ul>
+<li><a href="https://github.com/dmis-lab/bern">code base</a></li>
+<li><a href="https://bern.korea.ac.kr/">demo</a></li>
+</ul>
 <p>Uses contextualized word embeddings, which might have higher accuracy than sci Spacy
 Does Entity Identification, Entity typing</p>
 <h2 id="applicability-of-the-scispacy-tool">Applicability of the sciSpacy tool</h2>
@@ -221,10 +231,18 @@ The output of the pipeline is depicted in the Figure <span class="citation" data
 </figure>
 </div>
 <h1 id="software-frontend">Software Frontend</h1>
-<p>A mockup of the frontend is available in Figure ?? and the rules used for the user interface design are shown in Figure ??. The main idea is to make annotations made with ANN fun for annotators. Users will be able to search for a publication by PMID or title. ANN boxes will be filled in with title and abstract. Annotations will work in a task manner where annotators will be asked to annotate a type of entity or sentence and be rewarded with ANN badge points.</p>
+<p>A mockup of the frontend is available in Figure <a href="#fig:front">1</a> and the rules used for the user interface design are shown in Figure <a href="#fig:miro">2</a>. The main idea is to make annotations made with ANN fun for annotators. Users will be able to search for a publication by PMID or title. ANN boxes will be filled in with title and abstract. Annotations will work in a task manner where annotators will be asked to annotate a type of entity or sentence and be rewarded with ANN badge points.</p>
 <p>When selecting a text for annotation, a window will popup and users will be able to select terms from Wikidata. The annotations will be saved in a format that is compatible with Europe PMC annotations submission system, which would add Wikidata annotations to the Europe PMC SciLite annotations features. Users would be able to login with an ORCID account and ANN would allow them to claim their annotations work to their ORCID account.</p>
-<p>[ Mockup prototype of the frontend of ANN]images/front.png){#fig:front}</p>
-<p>[ <a href="https://miro.com/app/dashboard/">Miro</a> board for brainstorming of the functionalities of the user interface. ]images/front.png){#fig:miro}</p>
+<div id="fig:front" class="fignos">
+<figure>
+<img src="images/front.png" alt="" /><figcaption><span>Figure 1:</span> Mockup prototype of the frontend of ANN</figcaption>
+</figure>
+</div>
+<div id="fig:miro" class="fignos">
+<figure>
+<img src="images/front.png" alt="" /><figcaption><span>Figure 2:</span> <a href="https://miro.com/app/dashboard/">Miro</a> board for brainstorming of the functionalities of the user interface.</figcaption>
+</figure>
+</div>
 <h1 id="manual-annotations-case-report">Manual annotations: case report</h1>
 <p>We manually annotated a sample of biomedical publications (some of which from eLife) to extract information from their abstracts as a prototype for the platform. These annotations were made mostly by people from a research-lab background, which were presented to Wikidata during this project. In that sense, they mimic what a researcher could annotate when using the ANN platform.</p>
 <p>The annotations and notes are available in the attached table: <a href="https://docs.google.com/spreadsheets/d/1jmqW9GV04rxFwPiyidGOLN0NUzN-OWfzCkqB7RdwJbY/edit#gid=543386109">Manual Annotations Spreadsheet</a>.</p>
@@ -247,16 +265,20 @@ Adding a concept to Wikidata in the perspective of a new user</li>
 </ul>
 <h1 id="adding-a-concept-to-wikidata-in-the-perspective-of-a-new-user">Adding a concept to Wikidata in the perspective of a new user</h1>
 <p>The concept of “<a href="https://www.wikidata.org/wiki/Q98842773">hippocampal neurons</a>” was created on Wikidata by a new editor. However, the creation of an item in an ontology is a challenging task. The terms used are not common for the biological research workflow. These are the perceptions of one of the team members, when creating an Wikidata item for the first time:</p>
-<p><em>
-- LABEL: main annotation for the concept. This is what would be used from SpaCY,
-- DESCRIPTION: what the annotation refers to. As simple as possible. Simple words, it can reference other concepts.
-- ALSO KNOWN AS/ alias : other concepts that mean the same thing (I wonder whether this could be “counted” as one, if referencing throughout an abstract). For example, when writing an abstract you use “different words” for the same thing to avoid repetition, would this be understood as one same concept if they are linked ?
-(in multiple languages): All this can be done in multiple languages:
-- When adding statements:
-- you can specify if the concept is a subcategory of a different concept: SUBCLASS OF
-- you can specify if the concept is an example of a different concept: INSTANCE OF
-- You can also specify if the concept is PART OF: I take this to be as part of a bigger system, not necessarily immediate subclass. But this can be tricky to distinguish I think.
-- You can add an IMAGE to better describe it."</em></p>
+<p>_</p>
+<ul>
+<li>LABEL: main annotation for the concept. This is what would be used from SpaCY,</li>
+<li>DESCRIPTION: what the annotation refers to. As simple as possible. Simple words, it can reference other concepts.</li>
+<li>ALSO KNOWN AS/ alias : other concepts that mean the same thing (I wonder whether this could be “counted” as one, if referencing throughout an abstract). For example, when writing an abstract you use “different words” for the same thing to avoid repetition, would this be understood as one same concept if they are linked ?
+(in multiple languages): All this can be done in multiple languages:</li>
+<li>When adding statements:
+<ul>
+<li>you can specify if the concept is a subcategory of a different concept: SUBCLASS OF</li>
+<li>you can specify if the concept is an example of a different concept: INSTANCE OF</li>
+<li>You can also specify if the concept is PART OF: I take this to be as part of a bigger system, not necessarily immediate subclass. But this can be tricky to distinguish I think.</li>
+<li>You can add an IMAGE to better describe it."_</li>
+</ul></li>
+</ul>
 <p>This is the first report (as of our knowledge) of a biology researcher perspective when faced with the task of adding a new item to Wikidata.</p>
 <p>Given the complexity of ontological modelling, the report shows that the task is feasible. Adding a concept without training in semantic technology makes Wikidata a powerful tool, as the barrier of contribution is much lower than the one for current ontologies. The entries can be, then, adjusted later by the community, if necessary.</p>
 <p>Annotation of PMID 31254741 <span class="citation" data-cites="Hb1KGBGQ">[<a href="#ref-Hb1KGBGQ" role="doc-biblioref">4</a>]</span></p>
