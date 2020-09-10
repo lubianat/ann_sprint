@@ -1,5 +1,5 @@
 amidst
-Analyse
+analyse
 ankirin
 ankyrin
 arup
@@ -13,7 +13,7 @@ CoreNLP
 crowdsourcing
 disambiguated
 Doccano
-Drosophila
+drosophila
 eLife
 eLifeSprint
 embeddings
@@ -41,7 +41,6 @@ ontologies
 Paulo
 PMC’s
 PMIDs
-png
 pre
 programmatically
 RDF
@@ -49,10 +48,10 @@ repo
 Reusability
 São
 SciLite
-sciSpacy
+scispacy
 situ
 softwares
-SpaCY
+spaCy
 Tapioka
 Tiago
 TUI

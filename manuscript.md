@@ -4,7 +4,7 @@ author-meta:
 bibliography:
 - content/manual-references.json
 date-meta: '2020-09-10'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta name=\"citation_title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta property=\"og:title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta property=\"twitter:title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta name=\"dc.date\" content=\"2020-09-10\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-10\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Computational Systems Biology Laboratory, University of S\xE3o Paulo\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<meta name=\"twitter:creator\" content=\"@johndoe\" />\n<link rel=\"canonical\" href=\"https://lubianat.github.io/ann_sprint/\" />\n<meta property=\"og:url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta property=\"twitter:url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta name=\"citation_pdf_url\" content=\"https://lubianat.github.io/ann_sprint/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://lubianat.github.io/ann_sprint/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://lubianat.github.io/ann_sprint/v/d276f8efbc516abb983b3b424d0750118f3815fc/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://lubianat.github.io/ann_sprint/v/d276f8efbc516abb983b3b424d0750118f3815fc/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://lubianat.github.io/ann_sprint/v/d276f8efbc516abb983b3b424d0750118f3815fc/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta name=\"citation_title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta property=\"og:title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta property=\"twitter:title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta name=\"dc.date\" content=\"2020-09-10\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-10\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Computational Systems Biology Laboratory, University of S\xE3o Paulo\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<meta name=\"twitter:creator\" content=\"@johndoe\" />\n<link rel=\"canonical\" href=\"https://lubianat.github.io/ann_sprint/\" />\n<meta property=\"og:url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta property=\"twitter:url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta name=\"citation_pdf_url\" content=\"https://lubianat.github.io/ann_sprint/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://lubianat.github.io/ann_sprint/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://lubianat.github.io/ann_sprint/v/db79ceb452117a625b304bbc248bde48c7e1aab9/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://lubianat.github.io/ann_sprint/v/db79ceb452117a625b304bbc248bde48c7e1aab9/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://lubianat.github.io/ann_sprint/v/db79ceb452117a625b304bbc248bde48c7e1aab9/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - wikidata
 - Europe PMC
@@ -24,9 +24,9 @@ title: 'ANN: A platform to annotate text with Wikidata IDs'
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/ann_sprint/v/d276f8efbc516abb983b3b424d0750118f3815fc/))
+([permalink](https://lubianat.github.io/ann_sprint/v/db79ceb452117a625b304bbc248bde48c7e1aab9/))
 was automatically generated
-from [lubianat/ann_sprint@d276f8e](https://github.com/lubianat/ann_sprint/tree/d276f8efbc516abb983b3b424d0750118f3815fc)
+from [lubianat/ann_sprint@db79ceb](https://github.com/lubianat/ann_sprint/tree/db79ceb452117a625b304bbc248bde48c7e1aab9)
 on September 10, 2020.
 </em></small>
 
@@ -155,10 +155,11 @@ Of note, there have also been previous approaches for annotating documents using
     -   Does Entity Identification, Entity typing
 
 ### Open Tapioka
-github repo: https://github.com/wetneb/opentapioca
-online demo: https://opentapioca.org/#
-paper: https://arxiv.org/pdf/1904.09131.pdf
-documentation: https://opentapioca.readthedocs.io/en/latest/
+
+- [github repo](https://github.com/wetneb/opentapioca)
+- [online demo](https://opentapioca.org/#)
+- [paper](https://arxiv.org/pdf/1904.09131.pdf)
+- [documentation](https://opentapioca.readthedocs.io/en/latest/)
 
 #### System description 
 Input is a sentence. Output is the sentence, with all persons, locations and organizations linked to their respective Wikidata identifier. The system is trained solely on Wikidata. The authors use occurrence statistics of concepts in Wikidata and in text to compute the likelihood of a certain word in the text linking to a certain Wikidata item (e.g. “Barack Obama” linking to “Q76”). To take context into account independently computed local features are propagated along a Markov chain. The authors claim that this system is lightweight and easy to retrain, and therefore easily adapts to the frequent changes of Wikidata. They say that restricting their system to only people, organizations and locations enabled them to do well without using any other data but Wikidata, while other approaches do rely on additional text from Wikipedia.
@@ -172,9 +173,10 @@ Using only Wikidata to train the system is a good asset, because this might keep
 - How easily can this be changed in the code? If we had a dump of Wikidata containing only biological entities we could use it to train on as described, no changes to the code itself needed! 
 
 ### Sci Spacy
-github link: https://allenai.github.io/scispacy/
-online demo: https://scispacy.apps.allenai.org/
-paper: https://arxiv.org/pdf/1902.07669.pdf
+
+- [github link](https://allenai.github.io/scispacy/)
+- [online demo](https://scispacy.apps.allenai.org/)
+- [paper](https://arxiv.org/pdf/1902.07669.pdf)
 
 ### System  description
 The input is a sentence. The output is a sentence with the biomedical entities in that sentence annotated with canonical names, concept IDs and TUI(s). 
@@ -187,23 +189,27 @@ This looks nearly perfect for candidate generation.
 - Are the IDs provided there in any way meaningful for linking them to Wikidata? Yes! (See section below) 
 
 ### Doccano
-code base: https://github.com/doccano/doccano
-demo: http://doccano.herokuapp.com/
+
+- [code base](https://github.com/doccano/doccano)
+- [demo](http://doccano.herokuapp.com/)
+
 Comments:
 -   Entity identification; Sentiment analysis.
 
 ### Linked WikiText-2 Project
-codebase: https://github.com/rloganiv/kglm-data
-demo: https://rloganiv.github.io/linked-wikitext-2/#/explore
-back bone: https://stanfordnlp.github.io/CoreNLP/corenlp-server.html
+
+- [codebase](https://github.com/rloganiv/kglm-data)
+- [demo](https://rloganiv.github.io/linked-wikitext-2/#/explore)
+- [backbone](https://stanfordnlp.github.io/CoreNLP/corenlp-server.html)
 
 Entity identification; Annotation with Wikidata entries; the project utilizes Stanford CoreNLP  
 
 
 
 ### BERN
-code base: https://github.com/dmis-lab/bern
-demo: https://bern.korea.ac.kr/
+
+- [code base](https://github.com/dmis-lab/bern)
+- [demo](https://bern.korea.ac.kr/)
 
 Uses contextualized word embeddings, which might have higher accuracy than sci Spacy
 Does Entity Identification, Entity typing
@@ -235,10 +241,10 @@ A mockup of the frontend is available in Figure @fig:front  and the rules used f
 When selecting a text for annotation, a window will popup and users will be able to select terms from Wikidata. The annotations will be saved in a format that is compatible with Europe PMC annotations submission system, which would add Wikidata annotations to the Europe PMC SciLite annotations features. Users would be able to login with an ORCID account and ANN would allow them to claim their annotations work to their ORCID account.
 
 ![ Mockup prototype of the frontend of ANN
-]images/front.png){#fig:front}
+](images/front.png){#fig:front}
 
 ![ [Miro](https://miro.com/app/dashboard/) board for brainstorming of the functionalities of the user interface. 
-]images/front.png){#fig:miro}
+](images/front.png){#fig:miro}
 
 
 
@@ -276,6 +282,7 @@ Adding a concept to Wikidata in the perspective of a new user
 The concept of  “[hippocampal neurons](https://www.wikidata.org/wiki/Q98842773)”   was created on Wikidata by a new editor. However, the creation of an item in an ontology is a challenging task. The terms used are not common for the biological research workflow. These are the perceptions of one of the team members, when creating an Wikidata item for the first time: 
 
 _
+
 - LABEL: main annotation for the concept. This is what would be used from SpaCY,
 - DESCRIPTION: what the annotation refers to. As simple as possible. Simple words, it can reference other concepts.
 - ALSO KNOWN AS/ alias : other concepts that mean the same thing (I wonder whether this could be “counted” as one, if referencing throughout an abstract). For example, when writing an abstract you use “different words” for the same thing to avoid repetition, would this be understood as one same concept if they are linked ?
