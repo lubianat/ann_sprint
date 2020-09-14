@@ -3,8 +3,8 @@ author-meta:
 - Tiago Lubiana
 bibliography:
 - content/manual-references.json
-date-meta: '2020-09-10'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta name=\"citation_title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta property=\"og:title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta property=\"twitter:title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta name=\"dc.date\" content=\"2020-09-10\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-10\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Computational Systems Biology Laboratory, University of S\xE3o Paulo\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<meta name=\"twitter:creator\" content=\"@johndoe\" />\n<link rel=\"canonical\" href=\"https://lubianat.github.io/ann_sprint/\" />\n<meta property=\"og:url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta property=\"twitter:url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta name=\"citation_pdf_url\" content=\"https://lubianat.github.io/ann_sprint/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://lubianat.github.io/ann_sprint/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://lubianat.github.io/ann_sprint/v/db79ceb452117a625b304bbc248bde48c7e1aab9/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://lubianat.github.io/ann_sprint/v/db79ceb452117a625b304bbc248bde48c7e1aab9/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://lubianat.github.io/ann_sprint/v/db79ceb452117a625b304bbc248bde48c7e1aab9/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+date-meta: '2020-09-14'
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta name=\"citation_title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta property=\"og:title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta property=\"twitter:title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta name=\"dc.date\" content=\"2020-09-14\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-14\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Computational Systems Biology Laboratory, University of S\xE3o Paulo\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<meta name=\"twitter:creator\" content=\"@johndoe\" />\n<link rel=\"canonical\" href=\"https://lubianat.github.io/ann_sprint/\" />\n<meta property=\"og:url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta property=\"twitter:url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta name=\"citation_pdf_url\" content=\"https://lubianat.github.io/ann_sprint/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://lubianat.github.io/ann_sprint/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://lubianat.github.io/ann_sprint/v/c0f258a96151e4f8ff79e79438818ca5d884b469/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://lubianat.github.io/ann_sprint/v/c0f258a96151e4f8ff79e79438818ca5d884b469/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://lubianat.github.io/ann_sprint/v/c0f258a96151e4f8ff79e79438818ca5d884b469/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - wikidata
 - Europe PMC
@@ -24,10 +24,10 @@ title: 'ANN: A platform to annotate text with Wikidata IDs'
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/ann_sprint/v/db79ceb452117a625b304bbc248bde48c7e1aab9/))
+([permalink](https://lubianat.github.io/ann_sprint/v/c0f258a96151e4f8ff79e79438818ca5d884b469/))
 was automatically generated
-from [lubianat/ann_sprint@db79ceb](https://github.com/lubianat/ann_sprint/tree/db79ceb452117a625b304bbc248bde48c7e1aab9)
-on September 10, 2020.
+from [lubianat/ann_sprint@c0f258a](https://github.com/lubianat/ann_sprint/tree/c0f258a96151e4f8ff79e79438818ca5d884b469)
+on September 14, 2020.
 </em></small>
 
 ## Authors
@@ -91,6 +91,18 @@ During the 2-day hackathon eLife Sprint 2020, we hot-started a project for annot
 
 This document contains reports on the different branches of the project, coupled to thoughts of the participants on how to achieve the overarching goal of annotating all scientific text. 
 Given the short time for the event, some parts of the report are not completely structured. Nevertheless, we believe that they can be useful for accessing the development of the project. 
+
+### Community biocuration  projects
+
+We note that this is not the first shot at organizing biomedical information by harnessing the power of the crowd. Some notable examples:
+
+* PomBase (a base of information related to Schizosaccharomyces pombe) has a wonderful system for annotation articles to a set of OBO ontologies: https://github.com/pombase/canto [@doi:10.1093/database/baaa028]
+* [UniProt has a community curation branch, which is under active development](http://insideuniprot.blogspot.com/2019/07/)
+* Mark2Cure was a project with goals really similar to the Annotate Them All project, with some [very nice publications](https://mark2cure.org/blog/thank-you-campaign-pause/)  and a [GitHub page](https://github.com/SuLab/mark2cure/issues) [@doi:10.1093/bioinformatics/btz678]
+* Cochrane has a crowd-annotation platform targeted at clinical trials: [Cochrane Crowd](https://crowd.cochrane.org/)
+
+
+"Annotate them all" can be useful for these (and similar) projects, by providing coarse, community annotations for the dedicated, expert curator teams of bases such as UniProt and PomBase. 
 
 
 # Tasks
@@ -326,6 +338,76 @@ For [N-cadherin](https://www.wikidata.org/wiki/Q21981240), the label on wikidata
 
 The case study of manual annotations is useful to find patterns of problems in database matching. Notably, we had time only to analyse 3 of the many manual annotations made during the eLifeSprint 2020. In that way, the spreadsheet of manual annotations represent a rich resource for further exploration of the details related to annotation of biological concepts to Wikidata. 
 
+
+
+# Community Engagement
+## How can we motivate researchers to annotate content?
+
+- _Award a stamp/reward/badge for annotations_: here, it is important to acknowledge the challenge that incentivising a behaviour is difficult if it is not yet rewarded more systematically within the research ecosystem (e.g. for example via grants). Assigning a DOI or a badge
+- _Start small_: annotate smaller components of the research article such as the title or the abstract
+- _Gamification_: make it fun! See an example from a previous eLife Sprint, [appstract](https://appstract.pub/). 
+- _Embed annotations in the publishing process_: make use of existing “check points” in the publishing system to encourage researchers to annotate their research articles/abstracts (e.g. publishers could ask researchers to annotate their abstract when they submit their paper, similar to assigning keywords). We reached out to members of the eLife community for feedback on this 
+
+## Citable annotations? 
+
+We discussed further the idea of how to acknowledge the work of curators in a specific channel of the hackathon called “product clinic”, created to help projects to identify core value propositions, audience, user stories and more. Here is a partial summarized transcript of the thread we had to discuss citable annotations. Note: the conversations were adapted by T.L. for clarity and anonymity, in good faith to preserve the conversation, but respecting the privacy of people involved:  
+
+- Team member A: 
+
+At #team-annotate we are working on possible incentives for researchers to annotate their articles. One of the options we discussed is the possibility of giving an identifier (like. a DOI) to these kind of contributions and even make them citable. Do you know if it is possible to do so for this kind of work/contribution?
+
+- eLife Sprint staff A: 
+I don’t believe there are any restrictions that would prevent using a DOI. According to the DOI.org faq, a DOI can be assigned to “any entity — physical, digital or abstract — that you wish to identify, primarily for sharing with an interested user community or managing as intellectual property.”
+
+A DOI in and of itself is not generally perceived as such unless linked to a higher level incentive such as, say, recognition of the content the DOI represents for the purposes of funding or career progression
+
+- Team member A: 
+After discussing it with the team members, we thought that maybe a badge/stamp system instead would be better - it may also be more "visual" than a DOI. But it's good to know we can consider DOIs too. 
+
+
+- eLife Sprint staff B: 
+
+If annotations, as a web standard, already have URIs, would mean that adding a DOI is duplicative. Nevertheless, DOIs are only really valuable as scholarly currency if some funder or tenure committee recognizes the thing the DOI is attached to. Badges seem like a good way to go. 
+This seems like a good resource: [Annotation Is Now a Web Standard](https://web.hypothes.is/blog/annotation-is-now-a-web-standard/)
+
+- eLife Sprint  staff A:
+For what it’s worth, eLife funded much of the work that went into [Hypothes.is](hypothes.is) becoming a publisher-friendly option for scholarly annotation ([eLife enhances open annotation with Hypothesis to promote scientific discussion online](https://elifesciences.org/for-the-press/81d42f7d/elife-enhances-open-annotation-with-hypothesis-to-promote-scientific-discussion-online)).
+As to whether that makes Hypothesis itself an actual web standard, that’s up to the definition of what a web standard is.  I think it’s fair to say that it is a solution based on principles and practices that have been approved by the W3C consortium.
+
+Once the technical barriers to annotation on academic content were overcome however, there remain other issues that impact the usage of open annotations on academic research. They range from the lack of incentives, to reticence by researchers to publicly critique a peer’s (especially a senior peer’s) work, to fear of controversy.
+Public annotations pertaining to academic papers therefore remain, at least in our experience, sadly underused.
+
+- eLife Sprint  staff B:
+The w3c has recognized the Recommendations of the Annotation Working Group. Their [architecture model](https://www.w3.org/annotation/) leads me to believe that the goal is that annotations will be anchored to URIs. 
+
+-eLife Sprint  staff A:
+You can already use the share icon on any hypothesis annotation to share it via a unique URI: https://hyp.is/-cFm4AajEeiHGMe1j9pq5g/elifesciences.org/for-the-press/81d42f7d/elife-enhances-open-annotation-with-hypothesis-to-promote-scientific-discussion-online
+ 
+
+- eLife Sprint  staff A:
+First thing that came to mind regarding abstract keywords is reviewer/editor matching, Daniel Ecer is the brain behind eLife’s PeerScout project, which focuses on abstract keyword extraction to help make reviewer/editor matching easier ([see this this talk](https://www.youtube.com/watch?v=htkCDiGbpt8))
+So, it is perhaps in publishers’ favour to get researchers to annotate their abstracts, but what does researchers gain from annotating correctly? Moreover, what is correctly? 
+ 
+Ultimately the reviewer/editor has the power to decide whether or not to review, so whatever they think is correct, is currently considered “correct”. In a future where we open up peer review to all researchers, it would be beneficial to annotate your abstracts to get the appropriate reviewers to review your paper.
+ 
+Also pointing out another open-source effort to annotate figures - http://smartfigures.net/
+ 
+
+
+
+
+
+
+
+# Final Remarks 
+
+This report is a documentation of our collective efforts to hotstart the ANN project. We hope that the efforts we collectively made during the sprint will allow the project to start its journey until becoming a reality. 
+
+The project is going to be continuously improved at github.com/lubianat/ann, where future tasks have been organized as issues. Everyone is welcome to join us and help empowering open biomedical knowledge with collaborative semantic enrichment.
+
+# Acknowledgements
+
+This world would not have been possible without the effort of the eLife Innovation team and the organizers of the eLife Innovation Sprint 2020, specially Emmy Tsang. All the participants of the eLife Sprint contributed to this as a community. We would like to thank Giulliano Maciocci, Micah Vandergrift and Dasapta Irawan for the discussion and insights. We would also like to thank João Vitor Cavalcante, which contributed with code to the repository, solving issues raised at the Sprint. 
 
 
 ## References {.page_break_before}
