@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Tiago Lubiana" />
-  <meta name="dcterms.date" content="2020-09-10" />
+  <meta name="dcterms.date" content="2020-09-14" />
   <meta name="keywords" content="wikidata, Europe PMC, annotation" />
   <title>ANN: A platform to annotate text with Wikidata IDs</title>
   <style>
@@ -28,8 +28,8 @@
   <meta name="citation_title" content="ANN: A platform to annotate text with Wikidata IDs" />
   <meta property="og:title" content="ANN: A platform to annotate text with Wikidata IDs" />
   <meta property="twitter:title" content="ANN: A platform to annotate text with Wikidata IDs" />
-  <meta name="dc.date" content="2020-09-10" />
-  <meta name="citation_publication_date" content="2020-09-10" />
+  <meta name="dc.date" content="2020-09-14" />
+  <meta name="citation_publication_date" content="2020-09-14" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -46,9 +46,9 @@
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/ann_sprint/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/ann_sprint/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/ann_sprint/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/ann_sprint/v/db79ceb452117a625b304bbc248bde48c7e1aab9/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/ann_sprint/v/db79ceb452117a625b304bbc248bde48c7e1aab9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/ann_sprint/v/db79ceb452117a625b304bbc248bde48c7e1aab9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/ann_sprint/v/c0f258a96151e4f8ff79e79438818ca5d884b469/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/ann_sprint/v/c0f258a96151e4f8ff79e79438818ca5d884b469/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/ann_sprint/v/c0f258a96151e4f8ff79e79438818ca5d884b469/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -62,10 +62,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://lubianat.github.io/ann_sprint/v/db79ceb452117a625b304bbc248bde48c7e1aab9/">permalink</a>)
+(<a href="https://lubianat.github.io/ann_sprint/v/c0f258a96151e4f8ff79e79438818ca5d884b469/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/lubianat/ann_sprint/tree/db79ceb452117a625b304bbc248bde48c7e1aab9">lubianat/ann_sprint@db79ceb</a>
-on September 10, 2020.
+from <a href="https://github.com/lubianat/ann_sprint/tree/c0f258a96151e4f8ff79e79438818ca5d884b469">lubianat/ann_sprint@c0f258a</a>
+on September 14, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -102,6 +102,15 @@ Computational Systems Biology Laboratory, University of São Paulo
 <p>During the 2-day hackathon eLife Sprint 2020, we hot-started a project for annotating concepts in scientific articles to Wikidata, envisioning integration with Europe PMC’s Annotation API. We brainstormed both technical and practical aspects of developing a tool to gather crowd-annotations of scientific concepts. Inspired by other scientific games (like Mark2cure, eterna and foldit), we designed a gamified interface for crowdsourcing scientific annotations. Additionally, we studied Natural Language Processing approaches for extracting scientific entities, and assembled a series of perspectives on how to implement such an annotation tool in the current research environment.</p>
 <p>This document contains reports on the different branches of the project, coupled to thoughts of the participants on how to achieve the overarching goal of annotating all scientific text.
 Given the short time for the event, some parts of the report are not completely structured. Nevertheless, we believe that they can be useful for accessing the development of the project.</p>
+<h3 id="community-biocuration-projects">Community biocuration projects</h3>
+<p>We note that this is not the first shot at organizing biomedical information by harnessing the power of the crowd. Some notable examples:</p>
+<ul>
+<li>PomBase (a base of information related to Schizosaccharomyces pombe) has a wonderful system for annotation articles to a set of OBO ontologies: https://github.com/pombase/canto <span class="citation" data-cites="KjMg2xVu">[<a href="#ref-KjMg2xVu" role="doc-biblioref">1</a>]</span></li>
+<li><a href="http://insideuniprot.blogspot.com/2019/07/">UniProt has a community curation branch, which is under active development</a></li>
+<li>Mark2Cure was a project with goals really similar to the Annotate Them All project, with some <a href="https://mark2cure.org/blog/thank-you-campaign-pause/">very nice publications</a> and a <a href="https://github.com/SuLab/mark2cure/issues">GitHub page</a> <span class="citation" data-cites="1CzlvuSd8">[<a href="#ref-1CzlvuSd8" role="doc-biblioref">2</a>]</span></li>
+<li>Cochrane has a crowd-annotation platform targeted at clinical trials: <a href="https://crowd.cochrane.org/">Cochrane Crowd</a></li>
+</ul>
+<p>“Annotate them all” can be useful for these (and similar) projects, by providing coarse, community annotations for the dedicated, expert curator teams of bases such as UniProt and PomBase.</p>
 <h1 id="tasks">Tasks</h1>
 <p>Tasks developed at the hackathon
 At the hackathon we worked on the following tasks:</p>
@@ -139,7 +148,7 @@ Semantic enrichment: annotations enrich a scientific article with an additional 
 </ul>
 <h1 id="related-softwares-for-annotation">Related softwares for annotation</h1>
 <p>The task of connecting mentions in scientific texts to identifiers in databases has been researched in both the biomedical and the natural language processing communities. There have been many approaches to automate this task. This is different from our human-in-the-loop approach. Nevertheless different components can help us to select candidates that we present to the annotators.</p>
-<p>Of note, there have also been previous approaches for annotating documents using Wikipedia <span class="citation" data-cites="e1joZDxD">[<a href="#ref-e1joZDxD" role="doc-biblioref">1</a>]</span></p>
+<p>Of note, there have also been previous approaches for annotating documents using Wikipedia <span class="citation" data-cites="e1joZDxD">[<a href="#ref-e1joZDxD" role="doc-biblioref">3</a>]</span></p>
 <h2 id="overview">Overview</h2>
 <ul>
 <li>Open Tapioka
@@ -220,7 +229,7 @@ Does Entity Identification, Entity typing</p>
 <p>The input for the software backend are abstracts of scientific articles that are loaded from Europe PMC using the Europe PMC API. We then use sci Spacy to detect entities in the abstract. Sci Spacy annotates those entities with their ID in the Unified Medical Language System (UMLS).</p>
 <p>Notably, 26 thousand items in Wikidata have an UMLS ID, which allows to link the items that were detected by sciSpacy to be connected to Wikidata. We pinpoint a couple challenges:</p>
 <p>The pre-trained scispacy models are unable to identify the entity if it has conjunctions and prepositions in it. To improve the entity detection performance the model needs to be retrained using manually curated scientific word lists.
-Sci spacy does not use contextualized word embeddings, which impacts the precision of retrieved entities (the model employed in sci Spacy is derived from this reference<span class="citation" data-cites="z8ePeNWB">[<a href="#ref-z8ePeNWB" role="doc-biblioref">2</a>]</span>).</p>
+Sci spacy does not use contextualized word embeddings, which impacts the precision of retrieved entities (the model employed in sci Spacy is derived from this reference<span class="citation" data-cites="z8ePeNWB">[<a href="#ref-z8ePeNWB" role="doc-biblioref">4</a>]</span>).</p>
 <p>Other approaches use contextualized word embeddings for detecting and normalizing biomedical entities (such as https://bern.korea.ac.kr/). They could be used in the project in addition to scispacy.</p>
 <p>Besides UMLS IDs, sciSpacy also can match concepts a number of MeSH IDs, which can also be linked to Wikidata items.</p>
 <p>We wrote code in a Google Colab notebook to concatenate the Europe PMC API with sciSpacy and Wikidata. After retrieving the abstract of an article via its PMID, the function extracts relevant concepts via sciSpacy and match the ones with PMIDs to Wikidata.
@@ -247,7 +256,7 @@ The output of the pipeline is depicted in the Figure <span class="citation" data
 <p>We manually annotated a sample of biomedical publications (some of which from eLife) to extract information from their abstracts as a prototype for the platform. These annotations were made mostly by people from a research-lab background, which were presented to Wikidata during this project. In that sense, they mimic what a researcher could annotate when using the ANN platform.</p>
 <p>The annotations and notes are available in the attached table: <a href="https://docs.google.com/spreadsheets/d/1jmqW9GV04rxFwPiyidGOLN0NUzN-OWfzCkqB7RdwJbY/edit#gid=543386109">Manual Annotations Spreadsheet</a>.</p>
 <p>The following observations were made:</p>
-<p>Annotation of PMID 19268344 <span class="citation" data-cites="U9fKq6eD">[<a href="#ref-U9fKq6eD" role="doc-biblioref">3</a>]</span></p>
+<p>Annotation of PMID 19268344 <span class="citation" data-cites="U9fKq6eD">[<a href="#ref-U9fKq6eD" role="doc-biblioref">5</a>]</span></p>
 <p>“Ankyrin G” was not found on Wikidata, but only “ankyrin”. The <a href="https://www.wikidata.org/wiki/Q414971">ankirin</a> item on Wikidata refers to a <a href="https://www.wikidata.org/wiki/Q84467700">protein family</a>, and not to the protein itself. Later, we noticed that “Ankyrin G” was actually present on Wikidata (<a href="https://www.wikidata.org/w/index.php?title=Q21981188">here</a> or <a href="https://www.wikidata.org/wiki/Q21131080">here</a>), but at the moment the exact term “Ankyrin G” was not listed as one alias.</p>
 <ul>
 <li><p>A1 - Concepts might be present on Wikidata, but not with the exact wording they appear in scientific texts.</p></li>
@@ -281,14 +290,14 @@ Adding a concept to Wikidata in the perspective of a new user</li>
 </ul>
 <p>This is the first report (as of our knowledge) of a biology researcher perspective when faced with the task of adding a new item to Wikidata.</p>
 <p>Given the complexity of ontological modelling, the report shows that the task is feasible. Adding a concept without training in semantic technology makes Wikidata a powerful tool, as the barrier of contribution is much lower than the one for current ontologies. The entries can be, then, adjusted later by the community, if necessary.</p>
-<p>Annotation of PMID 31254741 <span class="citation" data-cites="Hb1KGBGQ">[<a href="#ref-Hb1KGBGQ" role="doc-biblioref">4</a>]</span></p>
+<p>Annotation of PMID 31254741 <span class="citation" data-cites="Hb1KGBGQ">[<a href="#ref-Hb1KGBGQ" role="doc-biblioref">6</a>]</span></p>
 <p>This article is related to drosophila research. Drosophila genes have frequently funny names, which might be mistaken for other entities. For the gene <a href="https://www.wikidata.org/wiki/Q29715259">frizzled</a>, the system worked nicely. We could find the Wikidata entry by typing “frizzled” but the official name is “fz”. The <a href="https://www.wikidata.org/wiki/Q29812172">protein</a> is also present, and the researchers would have to choose if they are talking about the gene or its product.</p>
 <p>The Van Gogh protein, on the other hand, does not show up on Wikidata, just the <a href="https://www.wikidata.org/wiki/Q5582">dutch post-impressionist painter</a>. For this case, the protein is not on Wikidata, but the <a href="https://www.wikidata.org/wiki/Q29723017">protein-coding gene</a> is, but it gets “buried” amidst the references to the painter.</p>
 <ul>
 <li><p>B1 - Many entities may have the same name, even when dealing with full words (and not acronyms). This ambiguity cannot be solved by looking at the word, and it might be solvable (at least partially) by looking at the context.</p></li>
 <li><p>B2 - A biologically similar entity might be present, but in a slightly different way (for example, gene entry when talking about a protein). This is a more general case of problem A2, of disambiguation of gene names for different species.</p></li>
 </ul>
-<p>Annotation of PMID 31909712 <span class="citation" data-cites="19mffHraw">[<a href="#ref-19mffHraw" role="doc-biblioref">5</a>]</span></p>
+<p>Annotation of PMID 31909712 <span class="citation" data-cites="19mffHraw">[<a href="#ref-19mffHraw" role="doc-biblioref">7</a>]</span></p>
 <p>For this article, PCP (planar cell polarity) was not found on Wikidata, just other references for the same acronym (instance of case A4). In this case, even searching for the full concept does not lead to a hit.</p>
 <ul>
 <li>C1- The concept of interest may be completely missing.</li>
@@ -303,35 +312,98 @@ Adding a concept to Wikidata in the perspective of a new user</li>
 </ul>
 <h2 id="conclusion-of-manual-annotations">Conclusion of manual annotations</h2>
 <p>The case study of manual annotations is useful to find patterns of problems in database matching. Notably, we had time only to analyse 3 of the many manual annotations made during the eLifeSprint 2020. In that way, the spreadsheet of manual annotations represent a rich resource for further exploration of the details related to annotation of biological concepts to Wikidata.</p>
+<h1 id="community-engagement">Community Engagement</h1>
+<h2 id="how-can-we-motivate-researchers-to-annotate-content">How can we motivate researchers to annotate content?</h2>
+<ul>
+<li><em>Award a stamp/reward/badge for annotations</em>: here, it is important to acknowledge the challenge that incentivising a behaviour is difficult if it is not yet rewarded more systematically within the research ecosystem (e.g. for example via grants). Assigning a DOI or a badge</li>
+<li><em>Start small</em>: annotate smaller components of the research article such as the title or the abstract</li>
+<li><em>Gamification</em>: make it fun! See an example from a previous eLife Sprint, <a href="https://appstract.pub/">appstract</a>.</li>
+<li><em>Embed annotations in the publishing process</em>: make use of existing “check points” in the publishing system to encourage researchers to annotate their research articles/abstracts (e.g. publishers could ask researchers to annotate their abstract when they submit their paper, similar to assigning keywords). We reached out to members of the eLife community for feedback on this</li>
+</ul>
+<h2 id="citable-annotations">Citable annotations?</h2>
+<p>We discussed further the idea of how to acknowledge the work of curators in a specific channel of the hackathon called “product clinic”, created to help projects to identify core value propositions, audience, user stories and more. Here is a partial summarized transcript of the thread we had to discuss citable annotations. Note: the conversations were adapted by T.L. for clarity and anonymity, in good faith to preserve the conversation, but respecting the privacy of people involved:</p>
+<ul>
+<li>Team member A:</li>
+</ul>
+<p>At #team-annotate we are working on possible incentives for researchers to annotate their articles. One of the options we discussed is the possibility of giving an identifier (like. a DOI) to these kind of contributions and even make them citable. Do you know if it is possible to do so for this kind of work/contribution?</p>
+<ul>
+<li>eLife Sprint staff A:
+I don’t believe there are any restrictions that would prevent using a DOI. According to the DOI.org faq, a DOI can be assigned to “any entity — physical, digital or abstract — that you wish to identify, primarily for sharing with an interested user community or managing as intellectual property.”</li>
+</ul>
+<p>A DOI in and of itself is not generally perceived as such unless linked to a higher level incentive such as, say, recognition of the content the DOI represents for the purposes of funding or career progression</p>
+<ul>
+<li><p>Team member A:
+After discussing it with the team members, we thought that maybe a badge/stamp system instead would be better - it may also be more “visual” than a DOI. But it’s good to know we can consider DOIs too.</p></li>
+<li><p>eLife Sprint staff B:</p></li>
+</ul>
+<p>If annotations, as a web standard, already have URIs, would mean that adding a DOI is duplicative. Nevertheless, DOIs are only really valuable as scholarly currency if some funder or tenure committee recognizes the thing the DOI is attached to. Badges seem like a good way to go.
+This seems like a good resource: <a href="https://web.hypothes.is/blog/annotation-is-now-a-web-standard/">Annotation Is Now a Web Standard</a></p>
+<ul>
+<li>eLife Sprint staff A:
+For what it’s worth, eLife funded much of the work that went into <a href="hypothes.is">Hypothes.is</a> becoming a publisher-friendly option for scholarly annotation (<a href="https://elifesciences.org/for-the-press/81d42f7d/elife-enhances-open-annotation-with-hypothesis-to-promote-scientific-discussion-online">eLife enhances open annotation with Hypothesis to promote scientific discussion online</a>).
+As to whether that makes Hypothesis itself an actual web standard, that’s up to the definition of what a web standard is. I think it’s fair to say that it is a solution based on principles and practices that have been approved by the W3C consortium.</li>
+</ul>
+<p>Once the technical barriers to annotation on academic content were overcome however, there remain other issues that impact the usage of open annotations on academic research. They range from the lack of incentives, to reticence by researchers to publicly critique a peer’s (especially a senior peer’s) work, to fear of controversy.
+Public annotations pertaining to academic papers therefore remain, at least in our experience, sadly underused.</p>
+<ul>
+<li>eLife Sprint staff B:
+The w3c has recognized the Recommendations of the Annotation Working Group. Their <a href="https://www.w3.org/annotation/">architecture model</a> leads me to believe that the goal is that annotations will be anchored to URIs.</li>
+</ul>
+<p>-eLife Sprint staff A:
+You can already use the share icon on any hypothesis annotation to share it via a unique URI: https://hyp.is/-cFm4AajEeiHGMe1j9pq5g/elifesciences.org/for-the-press/81d42f7d/elife-enhances-open-annotation-with-hypothesis-to-promote-scientific-discussion-online</p>
+<ul>
+<li>eLife Sprint staff A:
+First thing that came to mind regarding abstract keywords is reviewer/editor matching, Daniel Ecer is the brain behind eLife’s PeerScout project, which focuses on abstract keyword extraction to help make reviewer/editor matching easier (<a href="https://www.youtube.com/watch?v=htkCDiGbpt8">see this this talk</a>)
+So, it is perhaps in publishers’ favour to get researchers to annotate their abstracts, but what does researchers gain from annotating correctly? Moreover, what is correctly?</li>
+</ul>
+<p>Ultimately the reviewer/editor has the power to decide whether or not to review, so whatever they think is correct, is currently considered “correct”. In a future where we open up peer review to all researchers, it would be beneficial to annotate your abstracts to get the appropriate reviewers to review your paper.</p>
+<p>Also pointing out another open-source effort to annotate figures - http://smartfigures.net/</p>
+<h1 id="final-remarks">Final Remarks</h1>
+<p>This report is a documentation of our collective efforts to hotstart the ANN project. We hope that the efforts we collectively made during the sprint will allow the project to start its journey until becoming a reality.</p>
+<p>The project is going to be continuously improved at github.com/lubianat/ann, where future tasks have been organized as issues. Everyone is welcome to join us and help empowering open biomedical knowledge with collaborative semantic enrichment.</p>
+<h1 id="acknowledgements">Acknowledgements</h1>
+<p>This world would not have been possible without the effort of the eLife Innovation team and the organizers of the eLife Innovation Sprint 2020, specially Emmy Tsang. All the participants of the eLife Sprint contributed to this as a community. We would like to thank Giulliano Maciocci, Micah Vandergrift and Dasapta Irawan for the discussion and insights. We would also like to thank João Vitor Cavalcante, which contributed with code to the repository, solving issues raised at the Sprint.</p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references hanging-indent" role="doc-bibliography">
+<div id="ref-KjMg2xVu">
+<p>1. <strong>Community curation in PomBase: enabling fission yeast experts to provide detailed, standardized, sharable annotation from research publications</strong> <br />
+Antonia Lock, Midori A Harris, Kim Rutherford, Jacqueline Hayles, Valerie Wood<br />
+<em>Database</em> (2020) <a href="https://doi.org/ghbhx8">https://doi.org/ghbhx8</a> <br />
+DOI: <a href="https://doi.org/10.1093/database/baaa028">10.1093/database/baaa028</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32353878">32353878</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7192550">PMC7192550</a></p>
+</div>
+<div id="ref-1CzlvuSd8">
+<p>2. <strong>Applying Citizen Science to Gene, Drug, and Disease Relationship Extraction from Biomedical Abstracts</strong> <br />
+Ginger Tsueng, Max Nanis, Jennifer T Fouquier, Michael Mayers, Benjamin M Good, Andrew I Su<br />
+<em>Bioinformatics</em> (2019-09-03) <a href="https://doi.org/ghbhx7">https://doi.org/ghbhx7</a> <br />
+DOI: <a href="https://doi.org/10.1093/bioinformatics/btz678">10.1093/bioinformatics/btz678</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31504205">31504205</a></p>
+</div>
 <div id="ref-e1joZDxD">
-<p>1. <strong>Annotating Documents by Wikipedia Concepts</strong> <br />
+<p>3. <strong>Annotating Documents by Wikipedia Concepts</strong> <br />
 Peter Schönhofen<br />
 <em>Institute of Electrical and Electronics Engineers (IEEE)</em> (2008-12) <a href="https://doi.org/bqfkzk">https://doi.org/bqfkzk</a> <br />
 DOI: <a href="https://doi.org/10.1109/wiiat.2008.56">10.1109/wiiat.2008.56</a></p>
 </div>
 <div id="ref-z8ePeNWB">
-<p>2. <strong>Neural Architectures for Named Entity Recognition</strong> <br />
+<p>4. <strong>Neural Architectures for Named Entity Recognition</strong> <br />
 Guillaume Lample, Miguel Ballesteros, Sandeep Subramanian, Kazuya Kawakami, Chris Dyer<br />
 <em>Association for Computational Linguistics (ACL)</em> (2016) <a href="https://doi.org/gf2k56">https://doi.org/gf2k56</a> <br />
 DOI: <a href="https://doi.org/10.18653/v1/n16-1030">10.18653/v1/n16-1030</a></p>
 </div>
 <div id="ref-U9fKq6eD">
-<p>3. <strong>A selective filter for cytoplasmic transport at the axon initial segment.</strong> <br />
+<p>5. <strong>A selective filter for cytoplasmic transport at the axon initial segment.</strong> <br />
 Ai-Hong Song, Dong Wang, Gang Chen, Yuju Li, Jianhong Luo, Shumin Duan, Mu-Ming Poo<br />
 <em>Cell</em> (2009-03-05) <a href="https://www.ncbi.nlm.nih.gov/pubmed/19268344">https://www.ncbi.nlm.nih.gov/pubmed/19268344</a> <br />
 DOI: <a href="https://doi.org/10.1016/j.cell.2009.01.016">10.1016/j.cell.2009.01.016</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/19268344">19268344</a></p>
 </div>
 <div id="ref-Hb1KGBGQ">
-<p>4. <strong>Experimental and Theoretical Evidence for Bidirectional Signaling via Core Planar Polarity Protein Complexes in Drosophila.</strong> <br />
+<p>6. <strong>Experimental and Theoretical Evidence for Bidirectional Signaling via Core Planar Polarity Protein Complexes in Drosophila.</strong> <br />
 Katherine H Fisher, David Strutt, Alexander G Fletcher<br />
 <em>iScience</em> (2019-06-18) <a href="https://www.ncbi.nlm.nih.gov/pubmed/31254741">https://www.ncbi.nlm.nih.gov/pubmed/31254741</a> <br />
 DOI: <a href="https://doi.org/10.1016/j.isci.2019.06.021">10.1016/j.isci.2019.06.021</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31254741">31254741</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6610702">PMC6610702</a></p>
 </div>
 <div id="ref-19mffHraw">
-<p>5. <strong>Vangl2 acts at the interface between actin and N-cadherin to modulate mammalian neuronal outgrowth.</strong> <br />
+<p>7. <strong>Vangl2 acts at the interface between actin and N-cadherin to modulate mammalian neuronal outgrowth.</strong> <br />
 Steve Dos-Santos Carvalho, Maite M Moreau, Yeri Esther Hien, Mikael Garcia, Nathalie Aubailly, Deborah J Henderson, Vincent Studer, Nathalie Sans, Olivier Thoumine, Mireille Montcouquiol<br />
 <em>eLife</em> (2020-01-07) <a href="https://www.ncbi.nlm.nih.gov/pubmed/31909712">https://www.ncbi.nlm.nih.gov/pubmed/31909712</a> <br />
 DOI: <a href="https://doi.org/10.7554/elife.51822">10.7554/elife.51822</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31909712">31909712</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6946565">PMC6946565</a></p>
