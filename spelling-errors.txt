@@ -2,7 +2,7 @@ Acknowledgements
 amidst
 Analyse
 ankirin
-ankyrin
+Ankyrin
 appstract
 arup
 backend
@@ -12,7 +12,7 @@ biocurators
 cadherin
 catalogued
 Cavalcante
-Citable
+citable
 Cochrane
 codebase
 Colab
@@ -23,7 +23,7 @@ Dasapta
 disambiguated
 Doccano
 DOIs
-Drosophila
+drosophila
 duplicative
 Ecer
 eLife
@@ -35,7 +35,7 @@ EuropePMC
 favour
 Findability
 foldit
-frontend
+Frontend
 funder
 fz
 Gamification
@@ -55,7 +55,7 @@ johndoe
 Lubiana
 lubianat
 Maciocci
-mockup
+Mockup
 modelling
 NLP
 NMDA
@@ -78,7 +78,7 @@ SciLite
 scispacy
 situ
 softwares
-Spacy
+spacy
 Tapioka
 Tiago
 Tsang
