@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Tiago Lubiana" />
-  <meta name="dcterms.date" content="2020-09-14" />
+  <meta name="dcterms.date" content="2020-09-16" />
   <meta name="keywords" content="wikidata, Europe PMC, annotation" />
   <title>ANN: A platform to annotate text with Wikidata IDs</title>
   <style>
@@ -28,8 +28,8 @@
   <meta name="citation_title" content="ANN: A platform to annotate text with Wikidata IDs" />
   <meta property="og:title" content="ANN: A platform to annotate text with Wikidata IDs" />
   <meta property="twitter:title" content="ANN: A platform to annotate text with Wikidata IDs" />
-  <meta name="dc.date" content="2020-09-14" />
-  <meta name="citation_publication_date" content="2020-09-14" />
+  <meta name="dc.date" content="2020-09-16" />
+  <meta name="citation_publication_date" content="2020-09-16" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -46,9 +46,9 @@
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/ann_sprint/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/ann_sprint/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/ann_sprint/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/ann_sprint/v/d35c05afdc5e2730e3a20950f49dcf3134cadf20/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/ann_sprint/v/d35c05afdc5e2730e3a20950f49dcf3134cadf20/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/ann_sprint/v/d35c05afdc5e2730e3a20950f49dcf3134cadf20/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/ann_sprint/v/f2766d463aaa378b75483dc056b167fc2ef21c60/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/ann_sprint/v/f2766d463aaa378b75483dc056b167fc2ef21c60/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/ann_sprint/v/f2766d463aaa378b75483dc056b167fc2ef21c60/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -62,10 +62,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://lubianat.github.io/ann_sprint/v/d35c05afdc5e2730e3a20950f49dcf3134cadf20/">permalink</a>)
+(<a href="https://lubianat.github.io/ann_sprint/v/f2766d463aaa378b75483dc056b167fc2ef21c60/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/lubianat/ann_sprint/tree/d35c05afdc5e2730e3a20950f49dcf3134cadf20">lubianat/ann_sprint@d35c05a</a>
-on September 14, 2020.
+from <a href="https://github.com/lubianat/ann_sprint/tree/f2766d463aaa378b75483dc056b167fc2ef21c60">lubianat/ann_sprint@f2766d4</a>
+on September 16, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -99,7 +99,7 @@ Computational Systems Biology Laboratory, University of São Paulo
 <p>Annotation - linking words in scientific texts with external identifiers - is a ground step to automatically process biomedical knowledge. The annotation of biomedical articles is part of the work of biocurators, professionals dedicated to parse and make knowledge available on databases. These annotations, usually based on ontologies (sets of organized concepts) already power core platforms used by the research community, such as ZFIN and UniProt. (Note that the meaning of “annotation” used here is different from sharing written notes about ideas on the text such as proposed by hypothes.is).</p>
 <p>Even though biomedical databases are extremely valuable, they are limited to specific subsets of human knowledge. It would be a colossal challenge to annotate text if we needed to look for the right ontology for each kind of concept.</p>
 <p>Wikidata is a possible solution for this challenge. It is knowledge base that contains more than 80 million varied concepts: “p53, “malaria”, “Douglas Adams”, “Brazil” and much more. Moreover, anyone can contribute with new concepts (and relations between them) to Wikidata, which makes it flexible enough to accommodate the vast amount of concepts used in research articles.</p>
-<p>During the 2-day hackathon eLife Sprint 2020, we hot-started a project for annotating concepts in scientific articles to Wikidata, envisioning integration with Europe PMC’s Annotation API. We brainstormed both technical and practical aspects of developing a tool to gather crowd-annotations of scientific concepts. Inspired by other scientific games (like Mark2cure, eterna and foldit), we designed a gamified interface for crowdsourcing scientific annotations. Additionally, we studied Natural Language Processing approaches for extracting scientific entities, and assembled a series of perspectives on how to implement such an annotation tool in the current research environment.</p>
+<p>During the 2-day hackathon eLife Sprint 2020, we started a project for annotating concepts in scientific articles to Wikidata, envisioning integration with Europe PMC’s Annotation API. We brainstormed both technical and practical aspects of developing a tool to gather crowd-annotations of scientific concepts. Inspired by other scientific games (like <a href="https://mark2cure.org/">Mark2Cure</a>, <a href="https://eternagame.org/">eterna</a> and <a href="http://fold.it/">fold.it</a>), we designed a gamified interface for crowdsourcing scientific annotations. Additionally, we studied Natural Language Processing approaches for extracting scientific entities, and assembled a series of perspectives on how to implement such an annotation tool in the current research environment.</p>
 <p>This document contains reports on the different branches of the project, coupled to thoughts of the participants on how to achieve the overarching goal of annotating all scientific text.
 Given the short time for the event, some parts of the report are not completely structured. Nevertheless, we believe that they can be useful for accessing the development of the project.</p>
 <h3 id="community-biocuration-projects">Community biocuration projects</h3>
@@ -358,6 +358,18 @@ So, it is perhaps in publishers’ favour to get researchers to annotate their a
 </ul>
 <p>Ultimately the reviewer/editor has the power to decide whether or not to review, so whatever they think is correct, is currently considered “correct”. In a future where we open up peer review to all researchers, it would be beneficial to annotate your abstracts to get the appropriate reviewers to review your paper.</p>
 <p>Also pointing out another open-source effort to annotate figures - http://smartfigures.net/</p>
+<h1 id="what-are-the-views-from-the-research-community">What are the views from the research community?</h1>
+<p>We created a survey to get the views from the research community towards the possible implementation of an annotation system. All statements refer to the respondents of the survey:</p>
+<ul>
+<li>The majority of respondents are researchers</li>
+<li>PubMed and Google Scholar are the most used tools for searching scientific articles</li>
+<li>Most of the respondents do not know about Wikidata or they are unsure of what it is</li>
+<li>Annotation is still a not so familiar concept in the community.</li>
+<li>The majority of respondents think that an annotation system would boost the connection between scientific articles (fig. <a href="#fig:poll1">1</a>)</li>
+<li>Getting a better understanding and communication of scientific knowledge is perceived as an important benefit from an annotation system (fig. <a href="#fig:poll2">2</a>)</li>
+<li>The majority of respondents would annotate their articles if this practice was encouraged by funders and/or journals (fig. <a href="#fig:poll3">3</a>)</li>
+<li>Most of the participants would encourage, or at least mentioning, the annotation of articles to authors if they were an editor from a journal</li>
+</ul>
 <div id="fig:poll1" class="fignos">
 <figure>
 <img src="images/poll1.png" alt="" /><figcaption><span>Figure 1:</span> Pie chart extracted from the survey related to the question <em>Do you think that annotation of scientific articles can make knowledge access and connection between articles easier?</em> n=29 answers</figcaption>
@@ -374,7 +386,7 @@ So, it is perhaps in publishers’ favour to get researchers to annotate their a
 </figure>
 </div>
 <h1 id="final-remarks">Final Remarks</h1>
-<p>This report is a documentation of our collective efforts to hotstart the ANN project. We hope that the efforts we collectively made during the sprint will allow the project to start its journey until becoming a reality.</p>
+<p>This report is a documentation of our collective efforts to prepare the ANN project at eLifeSprint 2020. We hope that the efforts we collectively made during the sprint will allow the project to start its journey until becoming a reality.</p>
 <p>The project is going to be continuously improved at github.com/lubianat/ann, where future tasks have been organized as issues. Everyone is welcome to join us and help empowering open biomedical knowledge with collaborative semantic enrichment.</p>
 <h1 id="acknowledgements">Acknowledgements</h1>
 <p>This world would not have been possible without the effort of the eLife Innovation team and the organizers of the eLife Innovation Sprint 2020, specially Emmy Tsang. All the participants of the eLife Sprint contributed to this as a community. We would like to thank Giulliano Maciocci, Micah Vandergrift and Dasapta Irawan for the discussion and insights. We would also like to thank João Vitor Cavalcante, which contributed with code to the repository, solving issues raised at the Sprint.</p>
