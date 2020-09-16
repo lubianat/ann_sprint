@@ -4,7 +4,7 @@ author-meta:
 bibliography:
 - content/manual-references.json
 date-meta: '2020-09-16'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta name=\"citation_title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta property=\"og:title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta property=\"twitter:title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta name=\"dc.date\" content=\"2020-09-16\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-16\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Computational Systems Biology Laboratory, University of S\xE3o Paulo\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<meta name=\"twitter:creator\" content=\"@johndoe\" />\n<link rel=\"canonical\" href=\"https://lubianat.github.io/ann_sprint/\" />\n<meta property=\"og:url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta property=\"twitter:url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta name=\"citation_pdf_url\" content=\"https://lubianat.github.io/ann_sprint/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://lubianat.github.io/ann_sprint/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://lubianat.github.io/ann_sprint/v/f2766d463aaa378b75483dc056b167fc2ef21c60/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://lubianat.github.io/ann_sprint/v/f2766d463aaa378b75483dc056b167fc2ef21c60/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://lubianat.github.io/ann_sprint/v/f2766d463aaa378b75483dc056b167fc2ef21c60/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta name=\"citation_title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta property=\"og:title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta property=\"twitter:title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta name=\"dc.date\" content=\"2020-09-16\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-16\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Computational Systems Biology Laboratory, University of S\xE3o Paulo\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<meta name=\"twitter:creator\" content=\"@johndoe\" />\n<link rel=\"canonical\" href=\"https://lubianat.github.io/ann_sprint/\" />\n<meta property=\"og:url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta property=\"twitter:url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta name=\"citation_pdf_url\" content=\"https://lubianat.github.io/ann_sprint/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://lubianat.github.io/ann_sprint/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://lubianat.github.io/ann_sprint/v/5e530c6ef3c2967a5b2bc67357ddc2164d22500b/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://lubianat.github.io/ann_sprint/v/5e530c6ef3c2967a5b2bc67357ddc2164d22500b/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://lubianat.github.io/ann_sprint/v/5e530c6ef3c2967a5b2bc67357ddc2164d22500b/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - wikidata
 - Europe PMC
@@ -24,9 +24,9 @@ title: 'ANN: A platform to annotate text with Wikidata IDs'
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/ann_sprint/v/f2766d463aaa378b75483dc056b167fc2ef21c60/))
+([permalink](https://lubianat.github.io/ann_sprint/v/5e530c6ef3c2967a5b2bc67357ddc2164d22500b/))
 was automatically generated
-from [lubianat/ann_sprint@f2766d4](https://github.com/lubianat/ann_sprint/tree/f2766d463aaa378b75483dc056b167fc2ef21c60)
+from [lubianat/ann_sprint@5e530c6](https://github.com/lubianat/ann_sprint/tree/5e530c6ef3c2967a5b2bc67357ddc2164d22500b)
 on September 16, 2020.
 </em></small>
 
@@ -417,7 +417,18 @@ We created a survey to get the views from the research community towards the pos
 ![ Pie chart extracted from the survey related to the question _Which kind of incentive would make you annotate your article?_ n=29 answers
 ](images/poll3.png){#fig:poll3}
 
+# Preparing a logo and a name 
 
+During the 2020 eLife Sprint, several names for the project were brainstormed and “ANN” (short for annotate) was chosen after a pool made public to all participants of the event. 
+
+Some logo options were prepared by two contributors and chosen after a team decision. All logos tried to bring a text highlight to convey the idea of hyperlink/annotation (Figure fig:@logodraft). The chosen logo (Figure fig:@logo) was then adapted in terms of size and colors, adopting a faded red, blue, and green color scheme - colors often used in the logos of both Wikidata and eLife. The other logo options were not completely discarded, and may contribute to the project visual identity in the future.
+
+
+![The initial drafts for the logo 
+](images/logodraft.png){#fig:logodraft}
+
+![The final version of the logo 
+](images/logodraft.png){#fig:logo}
 
 # Final Remarks 
 

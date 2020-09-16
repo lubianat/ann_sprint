@@ -166,6 +166,12 @@ content/09.community.md:46:eLife’s
 content/09.community.md:46:PeerScout
 content/09.community.md:47:favour
 content/10.poll.md:11:funders
+content/11.logo.md:3:eLife
+content/11.logo.md:5:eLife
+content/11.logo.md:5:logodraft
+content/11.logo.md:9:logodraft
+content/11.logo.md:9:logodraft
+content/11.logo.md:12:logodraft
 content/12.final.md:3:eLifeSprint
 content/12.final.md:5:lubianat
 content/13.acknowledgements.md:1:Acknowledgements
