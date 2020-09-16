@@ -14,7 +14,6 @@ authors:
     email: tiago.lubiana.alves@usp.br
     affiliations:
       - Computational Systems Biology Laboratory, University of São Paulo
-authors:
   - github: youraccount
     name: Sabine Weber
     initials: SW
@@ -23,7 +22,6 @@ authors:
     email: your.email@provider.whatever
     affiliations:
       -  Your Affiliation, Details
-authors:
   - github: youraccount
     name: Bruno Andrade Paranhos
     initials: BAP
@@ -32,7 +30,6 @@ authors:
     email: your.email@provider.whatever
     affiliations:
       -  Your Affiliation, Details
-authors:
   - github: youraccount
     name: Dayane Araújo
     initials: DA
@@ -41,7 +38,6 @@ authors:
     email: your.email@provider.whatever
     affiliations:
       -  Your Affiliation, Details
-authors:
   - github: youraccount
     name: Ana Dorrego-Rivas
     initials: ADR
@@ -50,7 +46,6 @@ authors:
     email: your.email@provider.whatever
     affiliations:
       -  Your Affiliation, Details
-authors:
   - github: youraccount
     name: Delwen Franzen 
     initials: DF
@@ -59,7 +54,6 @@ authors:
     email: your.email@provider.whatever
     affiliations:
       -  Your Affiliation, Details
-authors:
   - github: youraccount
     name: Gabriela Nogueira Viçosa 
     initials: GNV
@@ -68,7 +62,6 @@ authors:
     email: your.email@provider.whatever
     affiliations:
       -  Your Affiliation, Details
-authors:
   - github: youraccount
     name: AG
     initials: YN
@@ -77,7 +70,6 @@ authors:
     email: your.email@provider.whatever
     affiliations:
       -  Your Affiliation, Details
-authors:
   - github: youraccount
     name: Inés Hojas García-Plaza 
     initials: IHGP
