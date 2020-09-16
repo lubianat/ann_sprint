@@ -22,14 +22,14 @@ authors:
     email: your.email@provider.whatever
     affiliations:
       -  Your Affiliation, Details
-  - github: youraccount
+  - github: paranhosba
     name: Bruno Andrade Paranhos
     initials: BAP
     orcid: 0000-0002-6730-6608
-    twitter: youraccount
-    email: your.email@provider.whatever
+    twitter: labdrafts
+    email: paranhosba@biof.ufrj.br
     affiliations:
-      -  Your Affiliation, Details
+      -  Cellular and Molecular Cardiology Laboratory, Biophysics Institute, Federal University of Rio de Janeiro, Brazil
   - github: youraccount
     name: Dayane Araújo
     initials: DA
