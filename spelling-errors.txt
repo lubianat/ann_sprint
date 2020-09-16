@@ -2,7 +2,7 @@ Acknowledgements
 amidst
 Analyse
 ankirin
-Ankyrin
+ankyrin
 appstract
 arup
 backend
@@ -34,9 +34,9 @@ eterna
 EuropePMC
 favour
 Findability
-foldit
 Frontend
 funder
+funders
 fz
 Gamification
 gamified
@@ -45,7 +45,6 @@ Gogh
 hackathon
 hippocampal
 hippocampus
-hotstart
 hypothes
 incentivising
 Interoperability
@@ -55,7 +54,7 @@ johndoe
 Lubiana
 lubianat
 Maciocci
-Mockup
+mockup
 modelling
 NLP
 NMDA

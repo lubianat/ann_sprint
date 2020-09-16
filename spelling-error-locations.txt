@@ -1,4 +1,7 @@
 content/00.front-matter.md:8:citable
+content/00.front-matter.md:47:funders
+content/00.front-matter.md:47:funders
+content/00.front-matter.md:48:funders
 content/02.contribs.md:9:spaCy
 content/02.contribs.md:11:mockup
 content/03.intro.md:5:biocurators
@@ -9,7 +12,6 @@ content/03.intro.md:5:ZFIN
 content/03.intro.md:13:crowdsourcing
 content/03.intro.md:13:eLife
 content/03.intro.md:13:eterna
-content/03.intro.md:13:foldit
 content/03.intro.md:13:gamified
 content/03.intro.md:13:hackathon
 content/03.intro.md:13:PMC’s
@@ -163,7 +165,8 @@ content/09.community.md:46:eLife
 content/09.community.md:46:eLife’s
 content/09.community.md:46:PeerScout
 content/09.community.md:47:favour
-content/12.final.md:3:hotstart
+content/10.poll.md:11:funders
+content/12.final.md:3:eLifeSprint
 content/12.final.md:5:lubianat
 content/13.acknowledgements.md:1:Acknowledgements
 content/13.acknowledgements.md:3:Cavalcante
