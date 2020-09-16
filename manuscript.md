@@ -1,10 +1,18 @@
 ---
 author-meta:
+- Tiago Lubiana
+- Sabine Weber
+- Bruno Andrade Paranhos
+- "Dayane Ara\xFAjo"
+- Ana Dorrego-Rivas
+- Delwen Franzen
+- "Gabriela Nogueira Vi\xE7osa"
+- AG
 - "In\xE9s Hojas Garc\xEDa-Plaza"
 bibliography:
 - content/manual-references.json
 date-meta: '2020-09-16'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta name=\"citation_title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta property=\"og:title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta property=\"twitter:title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta name=\"dc.date\" content=\"2020-09-16\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-16\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"In\xE9s Hojas Garc\xEDa-Plaza\" />\n<meta name=\"citation_author_institution\" content=\"Your Affiliation, Details\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-8930-8268\" />\n<meta name=\"twitter:creator\" content=\"@youraccount\" />\n<link rel=\"canonical\" href=\"https://lubianat.github.io/ann_sprint/\" />\n<meta property=\"og:url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta property=\"twitter:url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta name=\"citation_pdf_url\" content=\"https://lubianat.github.io/ann_sprint/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://lubianat.github.io/ann_sprint/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://lubianat.github.io/ann_sprint/v/53148cb7b34ee1bdbdec30a2544c7e0fcd606545/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://lubianat.github.io/ann_sprint/v/53148cb7b34ee1bdbdec30a2544c7e0fcd606545/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://lubianat.github.io/ann_sprint/v/53148cb7b34ee1bdbdec30a2544c7e0fcd606545/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta name=\"citation_title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta property=\"og:title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta property=\"twitter:title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta name=\"dc.date\" content=\"2020-09-16\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-16\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"Computational Systems Biology Laboratory, University of S\xE3o Paulo\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<meta name=\"twitter:creator\" content=\"@lubianat\" />\n<meta name=\"citation_author\" content=\"Sabine Weber\" />\n<meta name=\"citation_author_institution\" content=\"Your Affiliation, Details\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5577-3356\" />\n<meta name=\"twitter:creator\" content=\"@youraccount\" />\n<meta name=\"citation_author\" content=\"Bruno Andrade Paranhos\" />\n<meta name=\"citation_author_institution\" content=\"Your Affiliation, Details\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6730-6608\" />\n<meta name=\"twitter:creator\" content=\"@youraccount\" />\n<meta name=\"citation_author\" content=\"Dayane Ara\xFAjo\" />\n<meta name=\"citation_author_institution\" content=\"Your Affiliation, Details\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2211-0107\" />\n<meta name=\"twitter:creator\" content=\"@youraccount\" />\n<meta name=\"citation_author\" content=\"Ana Dorrego-Rivas\" />\n<meta name=\"citation_author_institution\" content=\"Your Affiliation, Details\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0462-2988\" />\n<meta name=\"twitter:creator\" content=\"@youraccount\" />\n<meta name=\"citation_author\" content=\"Delwen Franzen\" />\n<meta name=\"citation_author_institution\" content=\"Your Affiliation, Details\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-9974-9115\" />\n<meta name=\"twitter:creator\" content=\"@youraccount\" />\n<meta name=\"citation_author\" content=\"Gabriela Nogueira Vi\xE7osa\" />\n<meta name=\"citation_author_institution\" content=\"Your Affiliation, Details\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-0263-3699\" />\n<meta name=\"twitter:creator\" content=\"@youraccount\" />\n<meta name=\"citation_author\" content=\"AG\" />\n<meta name=\"citation_author_institution\" content=\"Your Affiliation, Details\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3259-0124\" />\n<meta name=\"twitter:creator\" content=\"@youraccount\" />\n<meta name=\"citation_author\" content=\"In\xE9s Hojas Garc\xEDa-Plaza\" />\n<meta name=\"citation_author_institution\" content=\"Your Affiliation, Details\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-8930-8268\" />\n<meta name=\"twitter:creator\" content=\"@youraccount\" />\n<link rel=\"canonical\" href=\"https://lubianat.github.io/ann_sprint/\" />\n<meta property=\"og:url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta property=\"twitter:url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta name=\"citation_pdf_url\" content=\"https://lubianat.github.io/ann_sprint/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://lubianat.github.io/ann_sprint/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://lubianat.github.io/ann_sprint/v/edb2c59936c954a12be96aa8972cded59aa38b5e/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://lubianat.github.io/ann_sprint/v/edb2c59936c954a12be96aa8972cded59aa38b5e/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://lubianat.github.io/ann_sprint/v/edb2c59936c954a12be96aa8972cded59aa38b5e/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - wikidata
 - Europe PMC
@@ -24,15 +32,103 @@ title: 'ANN: A platform to annotate text with Wikidata IDs'
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/ann_sprint/v/53148cb7b34ee1bdbdec30a2544c7e0fcd606545/))
+([permalink](https://lubianat.github.io/ann_sprint/v/edb2c59936c954a12be96aa8972cded59aa38b5e/))
 was automatically generated
-from [lubianat/ann_sprint@53148cb](https://github.com/lubianat/ann_sprint/tree/53148cb7b34ee1bdbdec30a2544c7e0fcd606545)
+from [lubianat/ann_sprint@edb2c59](https://github.com/lubianat/ann_sprint/tree/edb2c59936c954a12be96aa8972cded59aa38b5e)
 on September 16, 2020.
 </em></small>
 
 ## Authors
 
 
+
++ **Tiago Lubiana**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-2473-2313](https://orcid.org/0000-0003-2473-2313)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [lubianat](https://github.com/lubianat)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [lubianat](https://twitter.com/lubianat)<br>
+  <small>
+     Computational Systems Biology Laboratory, University of São Paulo
+  </small>
+
++ **Sabine Weber**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-5577-3356](https://orcid.org/0000-0002-5577-3356)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [youraccount](https://github.com/youraccount)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [youraccount](https://twitter.com/youraccount)<br>
+  <small>
+     Your Affiliation, Details
+  </small>
+
++ **Bruno Andrade Paranhos**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-6730-6608](https://orcid.org/0000-0002-6730-6608)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [youraccount](https://github.com/youraccount)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [youraccount](https://twitter.com/youraccount)<br>
+  <small>
+     Your Affiliation, Details
+  </small>
+
++ **Dayane Araújo**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-2211-0107](https://orcid.org/0000-0003-2211-0107)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [youraccount](https://github.com/youraccount)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [youraccount](https://twitter.com/youraccount)<br>
+  <small>
+     Your Affiliation, Details
+  </small>
+
++ **Ana Dorrego-Rivas**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-0462-2988](https://orcid.org/0000-0002-0462-2988)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [youraccount](https://github.com/youraccount)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [youraccount](https://twitter.com/youraccount)<br>
+  <small>
+     Your Affiliation, Details
+  </small>
+
++ **Delwen Franzen**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-9974-9115](https://orcid.org/0000-0001-9974-9115)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [youraccount](https://github.com/youraccount)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [youraccount](https://twitter.com/youraccount)<br>
+  <small>
+     Your Affiliation, Details
+  </small>
+
++ **Gabriela Nogueira Viçosa**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-0263-3699](https://orcid.org/0000-0003-0263-3699)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [youraccount](https://github.com/youraccount)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [youraccount](https://twitter.com/youraccount)<br>
+  <small>
+     Your Affiliation, Details
+  </small>
+
++ **AG**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-3259-0124](https://orcid.org/0000-0003-3259-0124)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [youraccount](https://github.com/youraccount)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [youraccount](https://twitter.com/youraccount)<br>
+  <small>
+     Your Affiliation, Details
+  </small>
 
 + **Inés Hojas García-Plaza**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
