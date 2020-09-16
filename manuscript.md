@@ -1,80 +1,10 @@
 ---
 author-meta:
-- Your Name
+- "In\xE9s Hojas Garc\xEDa-Plaza"
 bibliography:
 - content/manual-references.json
 date-meta: '2020-09-16'
-header-includes: '<!--
-
-  Manubot generated metadata rendered from header-includes-template.html.
-
-  Suggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html
-
-  -->
-
-  <meta name="dc.format" content="text/html" />
-
-  <meta name="dc.title" content="ANN: A platform to annotate text with Wikidata IDs" />
-
-  <meta name="citation_title" content="ANN: A platform to annotate text with Wikidata IDs" />
-
-  <meta property="og:title" content="ANN: A platform to annotate text with Wikidata IDs" />
-
-  <meta property="twitter:title" content="ANN: A platform to annotate text with Wikidata IDs" />
-
-  <meta name="dc.date" content="2020-09-16" />
-
-  <meta name="citation_publication_date" content="2020-09-16" />
-
-  <meta name="dc.language" content="en-US" />
-
-  <meta name="citation_language" content="en-US" />
-
-  <meta name="dc.relation.ispartof" content="Manubot" />
-
-  <meta name="dc.publisher" content="Manubot" />
-
-  <meta name="citation_journal_title" content="Manubot" />
-
-  <meta name="citation_technical_report_institution" content="Manubot" />
-
-  <meta name="citation_author" content="Your Name" />
-
-  <meta name="citation_author_institution" content="Your Affiliation, Details" />
-
-  <meta name="citation_author_orcid" content="9000-0001-2345-6789" />
-
-  <meta name="twitter:creator" content="@youraccount" />
-
-  <link rel="canonical" href="https://lubianat.github.io/ann_sprint/" />
-
-  <meta property="og:url" content="https://lubianat.github.io/ann_sprint/" />
-
-  <meta property="twitter:url" content="https://lubianat.github.io/ann_sprint/" />
-
-  <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/ann_sprint/" />
-
-  <meta name="citation_pdf_url" content="https://lubianat.github.io/ann_sprint/manuscript.pdf" />
-
-  <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/ann_sprint/manuscript.pdf" />
-
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/ann_sprint/v/480fc1f8139e3dcaddfff943fddbc33efae747f9/" />
-
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/ann_sprint/v/480fc1f8139e3dcaddfff943fddbc33efae747f9/" />
-
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/ann_sprint/v/480fc1f8139e3dcaddfff943fddbc33efae747f9/manuscript.pdf" />
-
-  <meta property="og:type" content="article" />
-
-  <meta property="twitter:card" content="summary_large_image" />
-
-  <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
-
-  <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
-
-  <meta name="theme-color" content="#ad1457" />
-
-  <!-- end Manubot generated metadata -->'
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta name=\"citation_title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta property=\"og:title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta property=\"twitter:title\" content=\"ANN: A platform to annotate text with Wikidata IDs\" />\n<meta name=\"dc.date\" content=\"2020-09-16\" />\n<meta name=\"citation_publication_date\" content=\"2020-09-16\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"In\xE9s Hojas Garc\xEDa-Plaza\" />\n<meta name=\"citation_author_institution\" content=\"Your Affiliation, Details\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-8930-8268\" />\n<meta name=\"twitter:creator\" content=\"@youraccount\" />\n<link rel=\"canonical\" href=\"https://lubianat.github.io/ann_sprint/\" />\n<meta property=\"og:url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta property=\"twitter:url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://lubianat.github.io/ann_sprint/\" />\n<meta name=\"citation_pdf_url\" content=\"https://lubianat.github.io/ann_sprint/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://lubianat.github.io/ann_sprint/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://lubianat.github.io/ann_sprint/v/53148cb7b34ee1bdbdec30a2544c7e0fcd606545/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://lubianat.github.io/ann_sprint/v/53148cb7b34ee1bdbdec30a2544c7e0fcd606545/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://lubianat.github.io/ann_sprint/v/53148cb7b34ee1bdbdec30a2544c7e0fcd606545/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - wikidata
 - Europe PMC
@@ -94,9 +24,9 @@ title: 'ANN: A platform to annotate text with Wikidata IDs'
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/ann_sprint/v/480fc1f8139e3dcaddfff943fddbc33efae747f9/))
+([permalink](https://lubianat.github.io/ann_sprint/v/53148cb7b34ee1bdbdec30a2544c7e0fcd606545/))
 was automatically generated
-from [lubianat/ann_sprint@480fc1f](https://github.com/lubianat/ann_sprint/tree/480fc1f8139e3dcaddfff943fddbc33efae747f9)
+from [lubianat/ann_sprint@53148cb](https://github.com/lubianat/ann_sprint/tree/53148cb7b34ee1bdbdec30a2544c7e0fcd606545)
 on September 16, 2020.
 </em></small>
 
@@ -104,9 +34,9 @@ on September 16, 2020.
 
 
 
-+ **Your Name**<br>
++ **Inés Hojas García-Plaza**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [9000-0001-2345-6789](https://orcid.org/9000-0001-2345-6789)
+    [0000-0002-8930-8268](https://orcid.org/0000-0002-8930-8268)
     · ![GitHub icon](images/github.svg){.inline_icon}
     [youraccount](https://github.com/youraccount)
     · ![Twitter icon](images/twitter.svg){.inline_icon}
@@ -153,7 +83,6 @@ We note that this is not the first shot at organizing biomedical information by 
 
 # Tasks
 
-Tasks developed at the hackathon
 At the hackathon we worked on the following tasks:
 
 - Deploy a pilot survey of the researchers’ views on annotating of scientific texts
@@ -494,7 +423,7 @@ This world would not have been possible without the effort of the eLife Innovati
 
 # Individual contributions 
 
-All contributors participated in the discussions about the platform design, the directions of the project and on the draft of this manuscript.    
+- All contributors participated in the discussions about the platform design, the directions of the project and on the draft of this manuscript.    
 
 Additionally: 
 
@@ -508,9 +437,9 @@ Additionally:
 
 - G.N.V , D.F and A.D.R.  discussed and wrote the community aspects on benefits of annotation and research incentives. 
 
-- B.A.P designed the logo.
+- B.A.P designed the logo, and I.H.G.P contributed with drafts too.
 
-- T.L, D.W, I.H.G.P worked on extracting patterns from manual annotations 
+- T.L, D.F, I.H.G.P worked on extracting patterns from manual annotations 
 
 - T.L proposed the initial idea, and oversaw the project. 
 

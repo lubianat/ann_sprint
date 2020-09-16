@@ -30,12 +30,11 @@ content/03.intro.md:24:Cochrane
 content/03.intro.md:27:PomBase
 content/03.intro.md:27:UniProt
 content/04.tasks.md:3:hackathon
-content/04.tasks.md:4:hackathon
-content/04.tasks.md:7:NLP
-content/04.tasks.md:7:scispacy
-content/04.tasks.md:7:scispacy
-content/04.tasks.md:9:Analyse
-content/04.tasks.md:13:mockup
+content/04.tasks.md:6:NLP
+content/04.tasks.md:6:scispacy
+content/04.tasks.md:6:scispacy
+content/04.tasks.md:8:Analyse
+content/04.tasks.md:12:mockup
 content/05.importance.md:2:programmatically
 content/05.importance.md:6:disambiguated
 content/05.importance.md:8:Programmatically
