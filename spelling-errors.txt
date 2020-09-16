@@ -1,9 +1,11 @@
 Acknowledgements
+adorrego
 amidst
+anadorrego
 analyse
 Andrade
 ankirin
-Ankyrin
+ankyrin
 appstract
 Araújo
 arup
@@ -14,7 +16,7 @@ biocurators
 cadherin
 catalogued
 Cavalcante
-citable
+Citable
 Cochrane
 codebase
 Colab
@@ -57,6 +59,7 @@ Hojas
 hypothes
 incentivising
 Inés
+INSERM
 Interoperability
 Irawan
 João
@@ -64,8 +67,10 @@ logodraft
 Lubiana
 lubianat
 Maciocci
-Mockup
+Magendie
+mockup
 modelling
+Neurocentre
 NLP
 NMDA
 Nogueira
@@ -91,7 +96,7 @@ situ
 SmartFigures
 softwares
 SourceData
-SpaCY
+spaCy
 Tiago
 Tsang
 TUI
