@@ -14,3 +14,12 @@ authors:
     email: tiago.lubiana.alves@usp.br
     affiliations:
       - Computational Systems Biology Laboratory, University of São Paulo
+authors:
+  - github: youraccount
+    name: Your Name
+    initials: YN
+    orcid: 9000-0001-2345-6789
+    twitter: youraccount
+    email: your.email@provider.whatever
+    affiliations:
+      -  Your Affiliation, Details
