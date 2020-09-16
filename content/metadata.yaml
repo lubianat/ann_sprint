@@ -16,9 +16,72 @@ authors:
       - Computational Systems Biology Laboratory, University of São Paulo
 authors:
   - github: youraccount
-    name: Your Name
+    name: Sabine Weber
+    initials: SW
+    orcid: 0000-0002-5577-3356
+    twitter: youraccount
+    email: your.email@provider.whatever
+    affiliations:
+      -  Your Affiliation, Details
+authors:
+  - github: youraccount
+    name: Bruno Andrade Paranhos
+    initials: BAP
+    orcid: 0000-0002-6730-6608
+    twitter: youraccount
+    email: your.email@provider.whatever
+    affiliations:
+      -  Your Affiliation, Details
+authors:
+  - github: youraccount
+    name: Dayane Araújo
+    initials: DA
+    orcid: 0000-0003-2211-0107
+    twitter: youraccount
+    email: your.email@provider.whatever
+    affiliations:
+      -  Your Affiliation, Details
+authors:
+  - github: youraccount
+    name: Ana Dorrego-Rivas
+    initials: ADR
+    orcid: 0000-0002-0462-2988
+    twitter: youraccount
+    email: your.email@provider.whatever
+    affiliations:
+      -  Your Affiliation, Details
+authors:
+  - github: youraccount
+    name: Delwen Franzen 
+    initials: DF
+    orcid: 0000-0001-9974-9115
+    twitter: youraccount
+    email: your.email@provider.whatever
+    affiliations:
+      -  Your Affiliation, Details
+authors:
+  - github: youraccount
+    name: Gabriela Nogueira Viçosa 
+    initials: GNV
+    orcid: 0000-0003-0263-3699
+    twitter: youraccount
+    email: your.email@provider.whatever
+    affiliations:
+      -  Your Affiliation, Details
+authors:
+  - github: youraccount
+    name: AG
     initials: YN
-    orcid: 9000-0001-2345-6789
+    orcid: 0000-0003-3259-0124
+    twitter: youraccount
+    email: your.email@provider.whatever
+    affiliations:
+      -  Your Affiliation, Details
+authors:
+  - github: youraccount
+    name: Inés Hojas García-Plaza 
+    initials: IHGP
+    orcid: 0000-0002-8930-8268
     twitter: youraccount
     email: your.email@provider.whatever
     affiliations:
