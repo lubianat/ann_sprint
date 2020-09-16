@@ -2,7 +2,7 @@ Acknowledgements
 amidst
 Analyse
 ankirin
-Ankyrin
+ankyrin
 appstract
 arup
 backend
@@ -12,7 +12,7 @@ biocurators
 cadherin
 catalogued
 Cavalcante
-citable
+Citable
 Cochrane
 codebase
 Colab
@@ -23,7 +23,7 @@ Dasapta
 disambiguated
 Doccano
 DOIs
-drosophila
+Drosophila
 duplicative
 Ecer
 eLife
@@ -51,12 +51,11 @@ incentivising
 Interoperability
 Irawan
 João
-johndoe
 logodraft
 Lubiana
 lubianat
 Maciocci
-mockup
+Mockup
 modelling
 NLP
 NMDA
@@ -76,12 +75,12 @@ Reusability
 São
 Schizosaccharomyces
 SciLite
-scispacy
+sciSpacy
 situ
 SmartFigures
 softwares
 SourceData
-SpaCY
+spaCy
 Tiago
 Tsang
 TUI
