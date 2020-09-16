@@ -38,14 +38,14 @@ authors:
     email: your.email@provider.whatever
     affiliations:
       -  Your Affiliation, Details
-  - github: youraccount
+  - github: anadorrego
     name: Ana Dorrego-Rivas
     initials: ADR
     orcid: 0000-0002-0462-2988
-    twitter: youraccount
-    email: your.email@provider.whatever
+    twitter: adorrego_r
+    email: ana.dorrego-rivas@inserm.fr
     affiliations:
-      -  Your Affiliation, Details
+      -  Planar Polarity and Plasticity team, University of Bordeaux, INSERM, Neurocentre Magendie, U1215, F-3300 Bordeaux, France
   - github: youraccount
     name: Delwen Franzen 
     initials: DF
