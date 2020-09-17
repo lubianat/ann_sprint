@@ -16,7 +16,7 @@ biocurators
 cadherin
 catalogued
 Cavalcante
-citable
+Citable
 Cochrane
 codebase
 Colab
@@ -43,7 +43,7 @@ EuropePMC
 favour
 Findability
 Franzen
-Frontend
+frontend
 funder
 funders
 fz
@@ -95,12 +95,12 @@ Reusability
 São
 Schizosaccharomyces
 SciLite
-Scispacy
+scispacy
 situ
 SmartFigures
 softwares
 SourceData
-spaCy
+Spacy
 Tiago
 Tsang
 TUI
