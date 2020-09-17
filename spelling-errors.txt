@@ -5,7 +5,7 @@ anadorrego
 Analyse
 Andrade
 ankirin
-ankyrin
+Ankyrin
 appstract
 Araújo
 arup
@@ -30,7 +30,7 @@ disambiguated
 Doccano
 DOIs
 Dorrego
-drosophila
+Drosophila
 duplicative
 Ecer
 eLife
@@ -43,7 +43,7 @@ EuropePMC
 favour
 Findability
 Franzen
-frontend
+Frontend
 funder
 funders
 fz
@@ -56,7 +56,7 @@ hackathon
 hippocampal
 hippocampus
 Hojas
-Hypothes
+hypothes
 ILCC
 incentivising
 Inés
@@ -71,7 +71,7 @@ Lubiana
 lubianat
 Maciocci
 Magendie
-mockup
+Mockup
 modelling
 Neurocentre
 NLP
@@ -95,12 +95,12 @@ Reusability
 São
 Schizosaccharomyces
 SciLite
-scispacy
+Scispacy
 situ
 SmartFigures
 softwares
 SourceData
-spaCy
+SpaCY
 Tiago
 Tsang
 TUI
