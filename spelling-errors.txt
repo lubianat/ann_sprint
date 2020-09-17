@@ -95,7 +95,7 @@ Reusability
 São
 Schizosaccharomyces
 SciLite
-sciSpacy
+scispacy
 situ
 SmartFigures
 softwares
@@ -107,7 +107,7 @@ TUI
 UMLS
 UniProt
 URI
-Vandergrift
+Vandegrift
 Viçosa
 Vitor
 webersab

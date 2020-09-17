@@ -188,7 +188,7 @@ content/13.acknowledgements.md:3:Irawan
 content/13.acknowledgements.md:3:João
 content/13.acknowledgements.md:3:Maciocci
 content/13.acknowledgements.md:3:Tsang
-content/13.acknowledgements.md:3:Vandergrift
+content/13.acknowledgements.md:3:Vandegrift
 content/13.acknowledgements.md:3:Vitor
 content/89.contribs.md:9:spaCy
 content/89.contribs.md:11:mockup
