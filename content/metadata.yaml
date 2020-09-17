@@ -14,14 +14,14 @@ authors:
     email: tiago.lubiana.alves@usp.br
     affiliations:
       - Computational Systems Biology Laboratory, University of São Paulo
-  - github: youraccount
+  - github: webersab
     name: Sabine Weber
     initials: SW
     orcid: 0000-0002-5577-3356
-    twitter: youraccount
-    email: your.email@provider.whatever
+    twitter: multilingual_s
+    email: s.weber@sms.ed.ac.uk
     affiliations:
-      -  Your Affiliation, Details
+      -  ILCC, University of Edinburgh, UK
   - github: paranhosba
     name: Bruno Andrade Paranhos
     initials: BAP
