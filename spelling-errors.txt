@@ -43,7 +43,7 @@ EuropePMC
 favour
 Findability
 Franzen
-Frontend
+frontend
 funder
 funders
 fz
@@ -71,7 +71,7 @@ Lubiana
 lubianat
 Maciocci
 Magendie
-Mockup
+mockup
 modelling
 Neurocentre
 NLP
@@ -95,12 +95,12 @@ Reusability
 São
 Schizosaccharomyces
 SciLite
-Scispacy
+scispacy
 situ
 SmartFigures
 softwares
 SourceData
-SpaCY
+spaCy
 Tiago
 Tsang
 TUI
