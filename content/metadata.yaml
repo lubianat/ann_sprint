@@ -48,13 +48,13 @@ authors:
       -  Planar Polarity and Plasticity lab, University of Bordeaux, INSERM, Neurocentre Magendie, U1215, F-3300 Bordeaux, France
   - github: youraccount
     name: Delwen Franzen 
-    initials: DF
+    initials: DLF
     orcid: 0000-0001-9974-9115
-    twitter: youraccount
-    email: your.email@provider.whatever
+    twitter: DelwenFranzen
+    email: delwen.franzen@charite.de
     affiliations:
-      -  Your Affiliation, Details
-  - github: youraccount
+      -  QUEST Center for Transforming Biomedical Research, Berlin Institute of Health (BIH), Berlin, Germany, Charite ́- Universitätsmedizin Berlin, Berlin, Germany
+  - github: delwen
     name: Gabriela Nogueira Viçosa 
     initials: GNV
     orcid: 0000-0003-0263-3699
