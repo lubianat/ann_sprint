@@ -62,14 +62,14 @@ authors:
     email: your.email@provider.whatever
     affiliations:
       -  Your Affiliation, Details
-  - github: youraccount
-    name: AG
-    initials: YN
+  - github: arupgsh
+    name: Arup Ghosh
+    initials: AG
     orcid: 0000-0003-3259-0124
-    twitter: youraccount
-    email: your.email@provider.whatever
+    twitter: arupgsh
+    email: arup@ils.res.in
     affiliations:
-      -  Your Affiliation, Details
+      -  Immunogenomics & Systems Biology Lab, Institute of Life Sciences, Bhubaneswar
   - github: youraccount
     name: Inés Hojas García-Plaza 
     initials: IHGP
