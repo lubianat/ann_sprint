@@ -24,6 +24,7 @@ content/03.intro.md:21:pombase
 content/03.intro.md:21:PomBase
 content/03.intro.md:22:curation
 content/03.intro.md:22:UniProt
+content/03.intro.md:23:bioinformatics
 content/03.intro.md:24:cochrane
 content/03.intro.md:24:Cochrane
 content/03.intro.md:24:Cochrane

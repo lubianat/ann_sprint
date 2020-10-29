@@ -96,6 +96,7 @@
     },
     "container-title": "Bioinformatics",
     "DOI": "10.1093/bioinformatics/btz678",
+    "page": "btz678",
     "publisher": "Oxford University Press (OUP)",
     "title": "Applying Citizen Science to Gene, Drug, and Disease Relationship Extraction from Biomedical Abstracts",
     "URL": "https://doi.org/ghbhx7",
@@ -138,6 +139,7 @@
     "container-title": "Database",
     "DOI": "10.1093/database/baaa028",
     "volume": "2020",
+    "page": "baaa028",
     "publisher": "Oxford University Press (OUP)",
     "title": "Community curation in PomBase: enabling fission yeast experts to provide detailed, standardized, sharable annotation from research publications",
     "URL": "https://doi.org/ghbhx8",
@@ -640,7 +642,7 @@
         [
           "2020",
           10,
-          12
+          29
         ]
       ]
     }
