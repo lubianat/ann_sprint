@@ -5,7 +5,7 @@ anadorrego
 analyse
 Andrade
 ankirin
-Ankyrin
+ankyrin
 appstract
 Araújo
 Arup
@@ -57,6 +57,8 @@ frontend
 funder
 funders
 fz
+Gabi
+gabrielanvicosa
 Gamification
 gamified
 García
@@ -68,7 +70,7 @@ Hinxton
 hippocampal
 hippocampus
 Hojas
-Hypothes
+hypothes
 ILCC
 Immunogenomics
 incentivising
@@ -101,7 +103,7 @@ PMIDs
 PomBase
 pombe
 pre
-programmatically
+Programmatically
 RDF
 repo
 Reusability
@@ -113,7 +115,7 @@ situ
 SmartFigures
 softwares
 SourceData
-SpaCY
+spaCy
 Tiago
 Tsang
 TUI
@@ -124,6 +126,7 @@ URI
 Vandegrift
 Viçosa
 Vitor
+Vix
 webersab
 Wellcome
 WikiText
