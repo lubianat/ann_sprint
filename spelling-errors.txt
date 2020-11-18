@@ -5,7 +5,7 @@ anadorrego
 Analyse
 Andrade
 ankirin
-Ankyrin
+ankyrin
 appstract
 Araújo
 Arup
@@ -32,7 +32,7 @@ curation
 Dasapta
 Dayane
 DayaneRAraujo
-Delwen
+delwen
 DelwenFranzen
 disambiguated
 Doccano
@@ -71,7 +71,7 @@ Hinxton
 hippocampal
 hippocampus
 hojas
-Hypothes
+hypothes
 ILCC
 Immunogenomics
 incentivising
@@ -113,12 +113,12 @@ Reusability
 São
 Schizosaccharomyces
 SciLite
-Scispacy
+sciSpacy
 situ
 SmartFigures
 softwares
 SourceData
-spaCy
+Spacy
 Tiago
 Tsang
 TUI
